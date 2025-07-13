@@ -1,0 +1,111 @@
+{
+  "label": "Objetos (Noches agitadas y días difíciles)",
+  "mapping": {
+		"gmdescription": "system.gmdescription.value",
+	    "skills": "system.skills",
+	    "talents": "system.talents",
+	    "class": {
+		      "path": "system.class.value",
+		      "converter": "career_class"
+		    },
+	    "careergroup": {
+		      "path": "system.careergroup.value",
+		      "converter": "career_careergroup"
+		    },
+	    "trappings": "system.trappings",
+		"penalties": {
+			"path": "system.penalty.value",
+			"converter": "trappings_penalty"
+			},
+		"range": {
+			"path": "system.range.value",
+			"converter": "spells_duration_range_target"
+			},
+		"special": "system.special.value",
+		"effects": {
+			"path": "effects",
+			"converter": "effects"
+			},
+		"wounds": {
+			"path": "system.wounds.value",
+			"converter": "criticals_wounds"
+			},	
+		"location": {
+			"path": "system.location.value",
+			"converter": "criticals_location"
+			},
+		"duration": "system.duration.value",
+		"contraction": "system.contraction.value",
+		"incubation": "system.incubation.value",
+		"incubation_duration": {
+			"path": "system.incubation.unit",
+			"converter": "disease_units"
+			},
+		"incubation_text": "system.incubation.text",
+		"diseases_duration": {
+			"path": "system.duration.unit",
+			"converter": "disease_units"
+			},
+		"symptoms": "system.symptoms.value",
+		"permanent": "system.permanent.value",
+		"spell_duration": {
+			"path": "system.duration.value",
+			"converter": "spells_duration_range_target"
+		},
+		"target": {
+			"path": "system.target.value",
+			"converter": "spells_duration_range_target"
+		},    
+		"damage": {
+			"path": "system.damage.value",
+			"converter": "spells_damage"
+		},
+		"lore": {
+			"path": "system.lore.value",
+			"converter": "lore"
+		},
+		"overcast": "system.overcast.label",
+		"overcastvaluevalue": "system.overcast.valuePerOvercast.additional",
+		"overcastinitialvalue": "system.overcast.initial.additional",
+		"injury_location": {
+			"path": "system.location.value",
+			"converter": "injuries_location"
+			},
+		"penalty": "system.penalty.value",
+		"injury_duration": {
+			"path": "system.duration.value",
+			"converter": "injuries_duration"
+			},
+		"modifier": "system.modifier.value",
+		"roll": "system.rollable.skill",
+		"specification": {
+			"path": "system.specification.value",
+			"converter": "traits_specification"
+			},
+		"tests": "system.tests.value"
+	},
+  "entries": [
+    {
+    "id": "Suffused with Ulgu",
+			"name": "Cubierto de Ulgu",
+			"description": "<p>Est&aacute;s cubiertos del Viento Gris de la Magia, que aquellos con Clarividencia perciben como una neblina oscura y cambiante que envuelve su cuerpo.</p><p>Puedes usar tu Habilidad de Canalizaci&oacute;n (<em>Ulgu</em>) en lugar de la Habilidad Movimiento silencioso, para todos las Chequeos relevantes.</p><p>Adem&aacute;s, cualquier intento con &eacute;xito de lanzar hechizos del Saber de las Sombras, en un radio de 8 yardas de ti obtiene +1 NE. Este bonificador s&oacute;lo se puede reclamar una vez, sin importar cu&aacute;ntos personajes est&eacute;n <em>Cubiertos de Ulgu</em> en las proximidades del hechicero.</p>",
+			"tests": "Canalización (Ulgu) para Moverse silenciosamente; cualquier hechizo de las Sombras lanzado a 8 yardas gana +1 NE",
+			"effects": [{
+				"name":"Cubierto de Ulgu",
+				"scriptData": [
+					{"label":"Cubierto de Ulgu"}
+					]
+				}]
+    },
+    {
+    "id": "Reveal the Inner Beauty",
+    "name": "Revelar la belleza interior",
+			"description": "<p>Haces que un objeto o individuo tocado se descomponga r&aacute;pidamente. Si es inorg&aacute;nico, el Hechizo hace que el objeto se vuelva quebradizo e inadecuado para su uso. Si es org&aacute;nico, el sujeto madura r&aacute;pidamente hasta que empieza a ajarse, dividi&eacute;ndose y derramando su apestoso contenido por todas partes. Una criatura viva debe hacer un Chequeo <strong>Desafiante (+0)</strong> de <strong>Resistencia</strong> para poder resistirse a este hechizo. En caso de fallar, el objetivo envejece 2d10 a&ntilde;os y pierde permanentemente -1d10% de sus caracter&iacute;sticas Habilidad de arma, Habilidad de proyectiles, Fuerza, Resistencia, Agilidad y Destreza.</p>",
+			"effects": [{
+				"name":"Revelar la belleza interior",
+				"scriptData": [
+					{"label":"Revelar la belleza interior"}
+					]
+				}]
+    }]
+  }

@@ -1,0 +1,1344 @@
+{
+  "label": "Actores (Noches agitadas y días difíciles)",
+  "mapping": {
+    "species": "system.details.species.value",
+    "hit": "system.details.hitLocationTable.value",
+    "wounds": "flags.autoCalcWounds",
+    "status": "system.details.status.value",
+    "notes": "system.details.biography.value",
+    "gmnotes": "system.details.gmnotes.value",
+    "items": {
+      "path": "items",
+      "converter": "fromPack"
+    },
+    "gender": {
+      "path": "system.details.gender.value",
+      "converter": "bestiary_gender"
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "effects"
+    }
+  },
+  "folders": {
+    "A Rough Night At The Three Feathers": "Una noche agitada en Las Tres Plumas",
+    "A Day At The Trials": "Un día en los tribunales",
+    "Nastassia's Wedding": "La boda de Nastassia",
+    "A Night At The Opera": "Una noche en la ópera",
+    "Lord of Ubersreik": "El señor de Ubersreik"
+  },
+  "entries": [
+    {
+      "id": "Schatzenheimer",
+      "name": "Schatzenheimer",
+      "species": "Humano",
+      "status": "Plata 1",
+      "gmnotes": "<p>Tres bandas criminales rivales, los @UUID[Actor.2hX69vBEAZncOLdT]{Valentina}, los @UUID[Actor.0LL9UcyxDQ2Qzx9T]{Schatzenheimer} y los @UUID[Actor.YYkCsVTcW7PlLxLK]{Huyderman}, han enviado cada una un asesino al Teatro Staatsoper, y cada uno pretende ser quien mate al objetivo: @UUID[Actor.N7Q3O6n7JH8nvyUF]{Albrecht Oldenhaller}. Sin embargo, Oldenhaller tiene protectores insospechados en forma de la secta de la Larva Santificada, que adora a Nurgle, por lo que los asesinos tienen mucho más de que preocuparse que de sus rivales pandilleros.</p>",
+      "items": {}
+    },
+    {
+      "id": "Allrella",
+      "name": "Allrella",
+      "species": "Humano",
+      "status": "Plata 1",
+      "gmnotes": "<p><strong>Miembros del </strong><em><strong>Ordo Ultima</strong></em><strong> - @UUID[Actor.N5yE3yifdjZ77UKU]{Helga}, @UUID[Actor.Q5nA8TjPG9UfgBUa]{Elphoise}, @UUID[Actor.0Lk2REtzh9XVM8nB]{Allrella}</strong></p>\n<p>Los sectarios de <em>Ordo Ultima</em> están lejos de su territorio natal de Nuln. Por lo tanto, beben y hacen todo lo posible para no parecer sospechosas mientras observan a @UUID[Actor.hDdur1pQxsvvWzXd]{Rechtshandler}, ocasionalmente murmurando oraciones inventadas a Verena para cimentar su tapadera como eruditas viajeras. Cada sectaria tiene una letra O encerrada dentro de una letra U tatuada en el seno izquierdo, y todas hablan con acento urbano de Nuln.</p>\n<p>@UUID[JournalEntry.g4vOyAOCjOl4EHBO.JournalEntryPage.vCbvOWyg16kon6e7#trama-3-un-rostro-del-pasado]{Trama 3 - Un rostro del pasado}</p>"
+    },
+    {
+      "id": "Crazy Larz",
+      "name": "Loco Larz",
+      "tokenName": "Loco Larz",
+      "species": "Humano",
+      "status": "Bronce 3",
+      "gmnotes": "<p>@UUID[Actor.1gLZGKozh6nrBjGr]{Thomas} es un hombre poderoso bastante acostumbrado al mando, ya sea con sus barcos, sus zonas de contrabando o con su @UUID[Actor.RVDzvuNLOyMHpboL]{futura esposa}. Al enterarse de las infidelidades de su prometida con el barón, llamó a @UUID[Actor.qKIlKSoDoQYCTMGE]{Tío Mho}, @UUID[Actor.0SY3YBbsrNa6bvZ6]{Loco Larz} y a @UUID[Actor.Wnn6QYqqbvG5gotp]{Gran ‘Rizos’} para que lo ayudaran a enseñarle unas valiosas lecciones al amante de su esposa. Todos ellos hablan con acentos del Reikland de clase baja.</p>\n<p>@UUID[JournalEntry.g4vOyAOCjOl4EHBO.JournalEntryPage.vCbvOWyg16kon6e7#trama-4-haciendo-una-escena]{Trama 4 - Haciendo una escena}</p>"
+    },
+    {
+      "id": "Inta-Dapesht",
+      "name": "Inta-Dapesht",
+      "species": "Muerto viviente",
+      "notes": "<section class=\"secret\" id=\"secret-lZGMZUg3ypRorILw\">\n    <p>El alma de Inta-Dapesht está vinculada a la espada que empuñaba en vida. Ahora que su descanso ha sido perturbado, matará a cualquiera que impida que su espada vuelva a su lugar de descanso.</p>\n    <p>@UUID[JournalEntry.7JmoqchNSsLrwZwz.JournalEntryPage.9F9hrdjcrIXmEJTm#trama-3-un-objeto-de-coleccionista]{Trama 3 - Un objeto de coleccionista}</p>\n</section>",
+      "items": [
+        {
+          "id": "Weapon (Claws)",
+          "name": "Arma (Zarpas)",
+          "description": "<p>La criatura lleva un arma cuerpo a cuerpo, o bien utiliza dientes, zarpas o cosas similares en combate. El arma causa tanto daño como la cifra entre paréntesis, que ya incluye el Bonificador por Fuerza de la criatura. Típicamente será 4 + Bonificador por Fuerza (lo que representa un Arma de mano).</p>"
+        },
+        {
+          "id": "Unstable*",
+          "name": "Inestable*",
+          "description": "<p>El cuerpo de la criatura se mantiene tan solo debido a una magia repugnante que es inherentemente inestable en el mundo material.</p>\n<p>Cada vez que acaba un Asalto Trabada con un cualesquiera oponentes que tienen mayor Ventaja, la criatura se ve obligada a retroceder y la magia que la mantiene unida se debilita. Pierde tantas Heridas como la diferencia entre su Ventaja y la Ventaja mayor de entre quienes se enfrentan con ella. Así, si la criatura tenía 1 Ventaja y su oponente 3, la criatura perdería 2 Heridas. Si la criatura llega a 0 Heridas, la magia que la mantiene unida se desmorona y ‘muere’.</p><p>Si Inta-Dapesht ‘muere’ debido a su Rasgo Inestable, volverá a su forma después de 8 horas con sus Heridas recuperadas.</p>"
+        },
+        {
+          "id": "Frenzy",
+          "name": "Furia",
+          "description": "<p>Mediante un Chequeo de Voluntad, puedes inducirte a ti mismo un estado alterado, sugestionándote, aullando, mordiendo tu escudo o algo similar. Si lo consigues, te ves sujeto a la Furia.</p>\n<p>Mientras estás sujeto a la Furia , eres inmune a todas las demás Psicologías y no huyes ni te retiras por razón alguna; por el contrario, debes moverte con toda celeridad hacia el enemigo más próximo al que puedes ver, para atacarle. Por lo general, la única Acción que puedes llevar a cabo es un Chequeo de Habilidad de armas o un Chequeo de Atletismo para llegar más rápidamente hasta un enemigo. Además, puedes llevar a cabo un Chequeo de Cuerpo a cuerpo como Acción libre cada Asalto porque estás poniendo en tus ataques todo lo que tienes. Por último, obtienes un +1 a tu Bonificador por Fuerza, tal es tu ferocidad. Permaneces en Furia hasta que todos los enemigos en tu línea visual han sido pacificados, o sufres 1 Estado de @Condition[Aturdido] o quedas @Condition[Inconsciente]. Una vez se acaba tu Furia , sufres de inmediato 1 Estado de @Condition[Fatigado].</p>\n<blockquote class=\"foundry-note\">\n    <p><span style=\"font-style: normal;\">El efecto está desactivado por defecto, activarlo en el apartado 'efectos' al entrar en Furia.</span></p>\n</blockquote>"
+        }
+      ]
+    },
+    {
+      "id": "Bodyguards and Men-At-Arms",
+      "name": "Guardaespaldas y hombres de armas",
+      "tokenName": "Guardaespaldas",
+      "species": "Humano",
+      "notes": "<section class=\"secret\" id=\"secret-0Y14dFJbDJCBQwkY\">\n    <p><strong>Estatus</strong>: Plata 3</p>\n    <p>La @UUID[Actor.J8AHNs6dcy40mhXr]{grafina} tiene varios sirvientes, doncellas, hombres de armas, guardaespaldas y otro personal asociado, todos vestidos con su librea magenta y amarilla. Entre su personal está Hans Erpresser, un sirviente con cierta inclinación por el chantaje (usa las estadísticas de Sirvientas y doncellas para él), y @UUID[Actor.eOlJad1Pky9vNevM]{Eliza}, una nueva empleada que no es lo que parece.</p>\n</section>"
+    },
+    {
+      "id": "Heinrich Gutenberg",
+      "name": "Heinrich Gutenberg",
+      "tokenName": "Heinrich Gutenberg"
+    },
+    {
+      "id": "Thomas Prahmhandler",
+      "name": "Thomas Prahmhandler",
+      "species": "Humano",
+      "status": "Oro 1",
+      "gmnotes": "<p>Thomas es un hombre poderoso bastante acostumbrado al mando, ya sea con sus barcos, sus zonas de contrabando o con su @UUID[Actor.RVDzvuNLOyMHpboL]{futura esposa}. Al enterarse de las infidelidades de su prometida con el barón, llamó a @UUID[Actor.qKIlKSoDoQYCTMGE]{Tío Mho}, @UUID[Actor.0SY3YBbsrNa6bvZ6]{Loco Larz} y a @UUID[Actor.Wnn6QYqqbvG5gotp]{Gran ‘Rizos’} para que lo ayudaran a enseñarle unas valiosas lecciones al amante de su esposa. Todos ellos hablan con acentos del Reikland de clase baja.</p>\n<p>@UUID[JournalEntry.g4vOyAOCjOl4EHBO.JournalEntryPage.vCbvOWyg16kon6e7#trama-4-haciendo-una-escena]{Trama 4 - Haciendo una escena}</p>",
+      "items": {
+        "Fine Clothing": {
+          "name": "Ropas de buena calidad"
+        }
+      }
+    },
+    {
+      "id": "Handmaids and Servants",
+      "name": "Sirvientes y doncellas",
+      "tokenName": "Sirvientes y doncellas",
+      "species": "Humano",
+      "notes": "<section class=\"secret\" id=\"secret-f3ECnLv8AjNtLMSV\">\n    <p><strong>Estatus</strong>: Plata 3</p>\n    <p>La @UUID[Actor.J8AHNs6dcy40mhXr]{grafina} tiene varios sirvientes, doncellas, hombres de armas, guardaespaldas y otro personal asociado, todos vestidos con su librea magenta y amarilla. Entre su personal está Hans Erpresser, un sirviente con cierta inclinación por el chantaje (usa las estadísticas de Sirvientas y doncellas para él), y @UUID[Actor.eOlJad1Pky9vNevM]{Eliza}, una nueva empleada que no es lo que parece.</p>\n</section>"
+    },
+    {
+      "id": "Valentina",
+      "name": "Valentina",
+      "tokenName": "Valentina",
+      "species": "Humano",
+      "status": "Plata 1",
+      "gmnotes": "<p>Tres bandas criminales rivales, los @UUID[Actor.2hX69vBEAZncOLdT]{Valentina}, los @UUID[Actor.0LL9UcyxDQ2Qzx9T]{Schatzenheimer} y los @UUID[Actor.YYkCsVTcW7PlLxLK]{Huyderman}, han enviado cada una un asesino al Teatro Staatsoper, y cada uno pretende ser quien mate al objetivo: @UUID[Actor.N7Q3O6n7JH8nvyUF]{Albrecht Oldenhaller}. Sin embargo, Oldenhaller tiene protectores insospechados en forma de la secta de la Larva Santificada, que adora a Nurgle, por lo que los asesinos tienen mucho más de que preocuparse que de sus rivales pandilleros.</p>",
+      "items": {}
+    },
+    {
+      "id": "Gunther Emming",
+      "name": "Gunther Emming",
+      "tokenName": "Gunther Emming"
+    },
+    {
+      "id": "Palace Guard",
+      "name": "Escoltas de Palacio",
+      "tokenName": "Escolta de Palacio",
+      "species": "Humano",
+      "notes": "<section class=\"secret\" id=\"secret-qfcwQiGTyasAOW6r\">\n    <p><strong>Estatus: </strong>Oro 2</p>\n    <p>La @UUID[Actor.CcqiAghkzgp9u1In]{Condesa} no va a ninguna parte sin sus muchos sirvientes, asistentes y escoltas. Contrariamente al rumor popular, no todos son dioses y diosas bronceados, elegidos porque así place a la Condesa. Sin embargo, la mayoría procede de las casas nobles menores de Nuln, ya que los plebeyos normalmente no suelen asistir a la realeza.</p>\n    <p>A diferencia de muchos de los Condes Electores, la Condesa prefiere no rodearse de escoltas extraídos de las Órdenes de Caballería, en gran parte porque afirma que el ruido incesante de sus armaduras la pone de los nervios.</p>\n</section>"
+    },
+    {
+      "id": "Maximilian Aschaffenberg",
+      "name": "Maximilian Aschaffenberg",
+      "tokenName": "Maximilian Aschaffenberg"
+    },
+    {
+      "id": "Erich von Holzenauer",
+      "name": "Erich von Holzenauer",
+      "tokenName": "Erich von Holzenauer"
+    },
+    {
+      "id": "Skaven Gutter Runner",
+      "name": "Skaven Gutter Runner",
+      "tokenName": "Skaven Gutter Runner"
+    },
+    {
+      "id": "Edwina Lowenhertz",
+      "name": "Edwina Lowenhertz",
+      "species": "Humano",
+      "status": "Bronce 2",
+      "gmnotes": "<p>@UUID[Actor.UQ2EKtuW4BmJcbJc]{Edvard Lowenhertz} tiene una voz rica que rezuma melodrama escénico, incluso cuando habla del tiempo. Su hija, Edwina, está impresionada por su padre, y le ha alentado proactivamente durante años a vengarse de quienes lo criticaron. Después de todo, se le rompe el corazón cuando su padre lee y relee aquellas primeras críticas; entonces fluyen las lágrimas y gobierna la desesperanza. Para asegurarse de no ser reconocida en el teatro, ya que asiste a espectáculos allí con frecuencia, Edwina usa un bigote falso que es poco probable que engañe a nadie.</p>\n<p>@UUID[JournalEntry.SsYATFVcPahLsAHN.JournalEntryPage.jmhqqWatzKzHAwoV#trama-3-criticas-refutadas]{Trama 3 - Críticas refutadas}</p>",
+      "items": {
+        "Hatred": {
+          "name": "Odio",
+          "description": "<p>Te ves consumido por el Odio hacia el Objetivo, que normalmente suele ser un grupo de personas o de criaturas, como por ejemplo, ‘hochlandeses’, ‘pulpos de las ciénagas’ o ‘esclavistas’. Jamás interaccionarás socialmente con algo o alguien a quien odies de esta forma. Al encontrarte con el objeto de tu Odio, deberás intentar un Chequeo de Psicología. Si fallas, te ves sujeto al Odio.</p>\n<p>Al final de cada asalto subsiguiente, puedes intentar un nuevo Chequeo de Psicología para acabar con el Odio. Si no lo consigues, los efectos del Odio acaban por sí solos de forma natural cuando todos los miembros del grupo especificado han muerto o se han ido, o pasas al Estado @Condition[Inconsciente].</p>\n<p>Mientras te ves sujeto al Odio, debes intentar destruir de inmediato al grupo odiado por el método más rápido y letal posible. Obtienes un bonificador de +1 NE a todos los Chequeos de combate contra el grupo especificado, y eres inmune al Miedo y al Intimidar (pero no al Terror) causados por tu odiado enemigo.</p>"
+        },
+        "Entangle": {
+          "name": "Enmarañar",
+          "description": "<p>Rezas a Taal, cantando plegarias para que proteja sus lugares sagrados. Raíces, enredaderas y plantas trepadoras se enroscan alrededor de tus enemigos. Todos los objetivos en un radio de tantas yardas como tu Bonificador por Empatía del punto objetivo sufren 1 Estado de @Condition[Enmarañado]. Por cada +2 NE, puedes incrementar el Área de efecto en tantas yardas como tu Bonificador por Empatía, o infligir un Estado adicional de @Condition[Enmarañado]. Dicho estado tiene una Fuerza igual a tu Voluntad, a efectos de liberarse de tus ligaduras.</p>"
+        }
+      }
+    },
+    {
+      "id": "Christoph Engel",
+      "name": "Christoph Engel",
+      "tokenName": "Christoph Engel"
+    },
+    {
+      "id": "Lorith Silverleaf",
+      "name": "Lorith Silverleaf",
+      "tokenName": "Lorith Silverleaf"
+    },
+    {
+      "id": "Gunni Mohrdorfer",
+      "name": "Gunni Mohrdorfer",
+      "species": "Humano",
+      "status": "Bronce 3",
+      "gmnotes": "<p>@UUID[Actor.8xawBmyhzCFVRCSY]{Gunni Mohrdorfer}, @UUID[Actor.meBFhv03FOIxxEuv]{Bart Fehrwalder}, y @UUID[Actor.xpRHuMinqcOTfLhL]{Hans-Frederick Born} se hacen pasar por morrianos que transportan un cuerpo para enterrarlo. Van vestidos con parafernalia que robaron de un templo de Morr. Hablan solo en tonos teatrales y monótonos para mantener su artimaña. Cuando no se hacen pasar por morrianos, los tres hombres tienen voces agudas con fuertes acentos de Nuln, y su tono se eleva al final de cada frase.</p>\n<p><strong>El Cuerpo</strong></p>\n<p>@UUID[Actor.YW7PY6OHt5krs2pj]{Josef Aufwiegler} es el ‘cuerpo’ que los ‘morrianos’ llevan en su ataúd. Aufwiegler es un agitador buscado por incitar disturbios en Nuln. Aunque pagó a los contrabandistas para que lo transportaran a un lugar seguro, no esperaba ser drogado. O ser trasladado en un ataúd. ¡O estar rodeado de morrianos con el rostro pintado como una calavera cuando se despertara! Cuando se despierta, confundido y aturdido por las drogas, Josef entra en un estado de pánico.</p>\n<p>@UUID[JournalEntry.g4vOyAOCjOl4EHBO.JournalEntryPage.vCbvOWyg16kon6e7#trama-5-polvo-eres...]{Trama 5 - Polvo eres…}</p>",
+      "items": {
+        "Bone Club": {
+          "name": "Garrote de hueso"
+        },
+        "Morrian Vestments": {
+          "name": "Vestimentas morrianas"
+        },
+        "Face Paint": {
+          "name": "Pintura facial"
+        }
+      }
+    },
+    {
+      "id": "Rickard Aschaffenberg",
+      "name": "Rickard Aschaffenberg",
+      "tokenName": "Rickard Aschaffenberg"
+    },
+    {
+      "id": "Imperial Viper",
+      "name": "Víbora imperial",
+      "tokenName": "Víbora imperial",
+      "species": "Serpiente",
+      "notes": "<section class=\"secret\" id=\"secret-ky6MSLGMB9NncYL4\">\n    <p>Normalmente de no más de 3 pies de largo, la víbora imperial es una de las serpientes más mortales del Imperio. Por lo general, habita en prados, campos y laderas rocosas, y es conocida por su carácter especialmente irritable. Ataca fácilmente cuando algo se le acerca, y su veneno es lo suficientemente potente como para matar.</p>\n</section>",
+      "items": {
+        "Armour (Scales)": {
+          "name": "Armadura (Escamas)",
+          "description": "<p>La criatura está protegida por armadura o por una piel gruesa. Dispone de tantos puntos de Armadura como la cifra entre paréntesis en todas las Ubicaciones de impacto.</p>"
+        },
+        "Weapon (Fangs)": {
+          "name": "Arma (Colmillos)",
+          "description": "<p>La criatura lleva un arma cuerpo a cuerpo, o bien utiliza dientes, zarpas o cosas similares en combate. El arma causa tanto daño como la cifra entre paréntesis, que ya incluye el Bonificador por Fuerza de la criatura. Típicamente será 4 + Bonificador por Fuerza (lo que representa un Arma de mano).</p>"
+        }
+      }
+    },
+    {
+      "id": "Restless Ghost",
+      "name": "Fantasma inquieto",
+      "tokenName": "Fantasma inquieto",
+      "species": "Muerto viviente",
+      "notes": "<section class=\"secret\" id=\"secret-oLGLIlxTuYnbznjS\">\n    <p>El fantasma enfurecido no recuerda quién era en la vida. Tampoco sabe por qué grita de odio a @UUID[Actor.S6MLSMjvCEjPcaEw]{Matthias Hubkind}. Pero, cuando grita, su tormento es insoportable y no se detendrá hasta que se haya vengado.</p>\n    <p>El fantasma aparece como una nube ondulante de túnicas verdes y cenizas indistintas coronadas por un cráneo distendido, retorcido de odio y dolor. Campanas empañadas cuelgan de esposas oxidadas alrededor de sus muñecas, cada una de las cuales resuena demasiado profundamente dado su tamaño relativamente pequeño.</p>\n</section>",
+      "items": {
+        "Hatred": {
+          "name": "Odio",
+          "description": "<p>Te ves consumido por el Odio hacia el Objetivo, que normalmente suele ser un grupo de personas o de criaturas, como por ejemplo, ‘hochlandeses’, ‘pulpos de las ciénagas’ o ‘esclavistas’. Jamás interaccionarás socialmente con algo o alguien a quien odies de esta forma. Al encontrarte con el objeto de tu Odio, deberás intentar un Chequeo de Psicología. Si fallas, te ves sujeto al Odio.</p><p>Al final de cada asalto subsiguiente, puedes intentar un nuevo Chequeo de Psicología para acabar con el Odio. Si no lo consigues, los efectos del Odio acaban por sí solos de forma natural cuando todos los miembros del grupo especificado han muerto o se han ido, o pasas al Estado @Condition[Inconsciente].</p><p>Mientras te ves sujeto al Odio, debes intentar destruir de inmediato al grupo odiado por el método más rápido y letal posible. Obtienes un bonificador de +1 NE a todos los Chequeos de combate contra el grupo especificado, y eres inmune al Miedo y al Intimidar (pero no al Terror) causados por tu odiado enemigo.</p>"
+        }
+      }
+    },
+    {
+      "id": "Taggee",
+      "name": "Taggees",
+      "tokenName": "Taggee",
+      "species": "Humano",
+      "notes": "<section class=\"secret\" id=\"secret-AXXeGYhnblps0USY\">\n    <p><strong>Estatus: </strong>Oro 2</p>\n    <p>El rajá Shrimant Rao de Ind ha enviado a sus mejores agentes para recuperar su rubí rosa. Dos están entrenados para luchar con zarpas de tigre, que parecen puños de acero con cuatro cuchillas sobresalientes. Las zarpas de tigre usan las mismas estadísticas que una daga, pero requieren la Habilidad Cuerpo a cuerpo (pelea), y usan las siguientes reglas adicionales: tener éxito en un Chequeo de Cuerpo a cuerpo (pelea), permite que cualquier herida resultante parezca que fue causada por un felino enorme o animal similar.</p>\n    <p>@UUID[JournalEntry.7JmoqchNSsLrwZwz.JournalEntryPage.9F9hrdjcrIXmEJTm#trama-7-el-tigre-rosa]{Trama 7 - El Tigre rosa}</p>\n</section>",
+      "items": [
+        {
+          "id": "Tiger Claw",
+          "name": "Zarpas de Tigre",
+          "description": "<p>Las Zarpas de Tigre parecen puños de acero con cuatro cuchillas sobresalientes</p>"
+        }
+      ]
+    },
+    {
+      "id": "Emmanuelle von Liebwitz",
+      "name": "Emmanuelle von Liebwitz",
+      "species": "Humano",
+      "status": "Oro 15",
+      "gmnotes": "<p>La Gran Condesa de Nuln, ampliamente conocida como ‘la Condesa’, es amiga de la infancia del Emperador, y se rumorea que usó dicha relación para garantizar su ascenso al poder. Conocida por sus escandalosas fiestas, su escandaloso estilo y sus muchos romances, tiene fama de ser la mujer más poderosa y de moda del Imperio, así como la más bella y elegible. Los susurros acerca de su salvaje temperamento, su caprichosa naturaleza y su desdén por la política la persiguen a cada paso que da, susurros a menudo compartidos por quienes están celosos de su indiscutible control sobre Nuln. Personas de todos los rangos la imitan para ganarse su favor o simplemente ser como ella, lo que significa que sus opciones de vestimenta, incluso siendo extravagantes, se copian en todas partes; se imita su acento refinado y suavemente hablado con una suave elevación; y su gran amor por la música, la cultura y el entretenimiento extravagante marca la pauta en Nuln. Como Condesa electora, tiene derecho a un colmillo rúnico, una de las espadas de guerra mágicas que los enanos le regalaron al Imperio hace mucho tiempo, pero rara vez la usa fuera de las ocasiones oficiales, prefiriendo mantenerla guardada en el arsenal real.</p>\n<p>@UUID[JournalEntry.SsYATFVcPahLsAHN.JournalEntryPage.jmhqqWatzKzHAwoV#trama-1-...que-se-sirve-caliente]{Trama 1 - …que se sirve caliente}</p>\n<p>@UUID[JournalEntry.SsYATFVcPahLsAHN.JournalEntryPage.jmhqqWatzKzHAwoV#trama-5-rivalidades-locales]{Trama 5 - Rivalidades locales}</p>",
+      "items": {
+        "Art (Calligraphy)": {
+          "name": "Arte (Caligrafía)"
+        },
+        "Language (Merogen)": {
+          "name": "Hablar idioma (Merógeno)"
+        },
+        "Lore (Nuln)": {
+          "name": "Sabiduría académica (Nuln)"
+        },
+        "Lore (Politics)": {
+          "name": "Sabiduría académica (Política)"
+        },
+        "Lore (the Arts)": {
+          "name": "Sabiduría académica (Arte)"
+        },
+        "Lore (the Empire)": {
+          "name": "Sabiduría académica (El Imperio)"
+        },
+        "Lore (Wissenland)": {
+          "name": "Sabiduría académica (Wissenland)"
+        },
+        "Play (Virginal)": {
+          "name": "Tocar (Virginal)"
+        },
+        "Etiquette (Nobles)": {
+          "name": "Etiqueta (Nobles)",
+          "description": "<p>Podrás mezclarte socialmente con el grupo elegido mientras vayas vestido de la forma adecuada y actúes con propiedad. Los grupos sociales de ejemplo para este Talento son: delincuentes, sectarios, agremiados, nobles, eruditos, sirvientes y soldados. Si no tienes el Talento, quienes sí lo tienen notarán tu incomodidad en un entorno poco familiar. Esto afecta principalmente a la interpretación del personaje, pero si el DJ lo decide puede suponer una bonificación a los Chequeos de Empatía.</p>"
+        },
+        "Inspiring": {
+          "name": "Inspirador",
+          "description": "<p>Tus palabras de aliento y tus súplicas pueden cambiar el curso de una batalla. Consulta la tabla siguiente para ver a cuánta gente puedes ahora influenciar con tu Habilidad de Mando en tiempo de guerra.</p>\n<p> </p>\n<div>\n    <table title=\"\" border=\"1\">\n        <tbody><tr>\n                <td>\n                    <p>Talentos adquiridos</p>\n                </td>\n                <td>\n                    <p>Número de soldados influenciados</p>\n                </td>\n</tr><tr>\n                <td>\n                    <p>1</p>\n                </td>\n                <td>\n                    <p>Lo normal × 5</p>\n                </td>\n</tr><tr>\n                <td>\n                    <p>2</p>\n                </td>\n                <td>\n                    <p>Lo normal × 10</p>\n                </td>\n</tr><tr>\n                <td>\n                    <p>3</p>\n                </td>\n                <td>\n                    <p> Lo normal × 20</p>\n                </td>\n</tr><tr>\n                <td>\n                    <p>4</p>\n                </td>\n                <td>\n                    <p> Lo normal × 50</p>\n                </td>\n</tr><tr>\n                <td>\n                    <p>5</p>\n                </td>\n                <td>\n                    <p> Lo normal × 100</p>\n                </td>\n</tr><tr>\n                <td>\n                    <p>6</p>\n                </td>\n                <td>\n                    <p> Lo normal × 200</p>\n                </td>\n</tr><tr>\n                <td>\n                    <p>7</p>\n                </td>\n                <td>\n                    <p> Lo normal × 500</p>\n                </td>\n</tr><tr>\n                <td>\n                    <p>8</p>\n                </td>\n                <td>\n                    <p> Lo normal × 1000</p>\n                </td>\n</tr><tr>\n                <td>\n                    <p>9</p>\n                </td>\n                <td>\n                    <p> Todos los que puedan oír tu inspiradora voz</p>\n                </td>\n</tr></tbody>\n    </table>\n</div>"
+        },
+        "Wissenland Runefang (Dammaz Vengryn)": {
+          "name": "Colmillo rúnico de Wissenland (Dammaz Vengryn)"
+        },
+        "Best Quality Courtly Garb": {
+          "name": "Ropajes de máxima calidad",
+          "description": "<p>La vestimenta de los nobles presenta adornos como puños y cuellos de encaje, telas de altísima calidad en exceso y zapatos en punta. Los sirvientes también visten de forma cortesana en banquetes y ceremonias, aunque sus sobreveste y corsés son menos ostentosos que los de los nobles y, por tanto, pueden adquirirse por la mitad de precio.</p>"
+        },
+        "Ryoal Jewels of Nuln": {
+          "name": "Joyas dignas de la realeza",
+          "description": "<p>Los precios varían según la artesanía, el tipo de metal y el valor de las gemas. Como norma general, los anillos comunes sin piedras preciosas cuestan 10 monedas del mismo tipo de metal (es decir, latón, plata u oro), mientras que los collares cuestan 20 monedas del mismo tipo de metal.</p>"
+        },
+        "Duchy of Meissen": {
+          "name": "Ducado de Meissen"
+        },
+        "Grand County of Nuln": {
+          "name": "Gran Condado de Nuln"
+        },
+        "Impeccable Taste in Fashion": {
+          "name": "Gusto impecable en moda"
+        },
+        "Whatever Else She Wants": {
+          "name": "Cualquier otra cosa que ella desee"
+        }
+      }
+    },
+    {
+      "id": "Bloodletter of Khorne",
+      "name": "Desangrador de Khorne",
+      "tokenName": "Desangrador de Khorne",
+      "species": "Demonio",
+      "notes": "<section class=\"secret\" id=\"secret-9qMtg7ExXFbV6pSQ\">\n    <p>Los desangradores matan cualquier cosa a su paso, solo se preocupan de que corra la sangre. Para hacer que este encuentro sea más Desafiante o llegue a un clímax, agrega @UUID[Compendium.wfrp4e-core.items.lV7Bxi3T3ps4QBlc]{mutaciones} o los Rasgos de criatura @UUID[Compendium.wfrp4e-core.items.9NROryHer1uXAKwY]{Élite}, @UUID[Compendium.wfrp4e-core.items.9MjH4xyVrd3Inzak]{Rápido}, @UUID[Compendium.wfrp4e-core.items.HbrwGhUl0ZXz4kLA]{Resistente} o @UUID[Compendium.wfrp4e-core.items.k9539MBTFplxsysT]{Recio}.</p>\n    <p>Elegidos de Khorne, los desangradores recorren los campos de batalla del Viejo Mundo, llevándose calaveras y vidas en honor al Dios de la Sangre. Unos dientes afilados como agujas sobresalen de unos rostros monstruosos y astados. Su piel color rojo sangre es dura como el bronce, forjada en el yunque de una guerra interminable. Cada desangrador empuña una espada infernal, una hoja tremendamente afilada y bañada en sangre, que maneja con imprudente abandono, entregándose a la dulce sensación de la masacre sin sentido.</p>\n</section>",
+      "items": {
+        "Frenzy": {
+          "name": "Furia",
+          "description": "<p>Con un Chequeo de Voluntad, puedes entrar en estado de frenesí animándote a ti mismo mediante aullidos, mordiendo tu escudo o actos similares. Si tienes éxito, quedas sometido al estado de Frenesí.</p>\n<p>Mientras estás en Frenesí:</p>\n<ul>\n    <li>\n        <p>Eres inmune a cualquier otro efecto de psicología y no huirás ni te retirarás bajo ninguna circunstancia.</p>\n    </li>\n    <li>\n        <p>De hecho, debes moverte siempre a tu velocidad completa hacia el enemigo más cercano que puedas ver para atacarlo.</p>\n    </li>\n    <li>\n        <p>Por lo general, la única Acción que puedes realizar es un Chequeo de Habilidad con Armas o un Chequeo de Atletismo para alcanzar antes a un enemigo.</p>\n    </li>\n    <li>\n        <p>Además, puedes realizar un Chequeo de Combate cuerpo a cuerpo como Acción Gratuita cada asalto, ya que estás lanzando todo lo que tienes en tus ataques.</p>\n    </li>\n    <li>\n        <p>Por último, obtienes un bonificador de +1 a tu Bonificador de Fuerza, debido a tu ferocidad.</p>\n    </li>\n</ul>\n<p>Permaneces en Frenesí hasta que todos los enemigos en tu línea de visión estén neutralizados o recibas el Estado @Condition[Aturdido] o @Condition[Inconsciente]. Cuando el Frenesí termina, adquieres inmediatamente la condición @Condition[Fatigado].</p>"
+        }
+      }
+    },
+    {
+      "id": "Martyn Ruchen",
+      "name": "Martyn Ruchen",
+      "species": "Humano",
+      "status": "Plata 3",
+      "gmnotes": "<p>Martyn Ruchen tiene un brillo febril en los ojos mientras se frota las alegres manos con verrugas. Una gema sagrada para Nurgle, el dios del Caos de la Enfermedad y la Desesperación, pronto estará en sus manos, y apenas puede contener la emoción. ¡Todo lo que necesita es capturar a @UUID[Actor.N7Q3O6n7JH8nvyUF]{Albrecht Oldenhaller}!</p>\n<p>Ruchen lleva tres meses dirigiendo la célula local de la secta de la Larva Santificada: recientemente vio, con lágrimas de alegría en los ojos, que el Señor de la Peste reclamaba a la sacerdotisa anterior, que murió de una multitud de hermosas y florecientes enfermedades - y está ansioso por hacerlo al menos tan bien como su predecesora.</p>\n<p>Si se le da conversación, Martyn murmura disculpas con su voz ronca y se retira rápidamente con sus @UUID[Actor.QfuTho9iwb2q6MRp]{amigos sectarios}, todos los cuales van vestidos como sórdidos comerciantes. Martyn huele vagamente a jamón podrido y a sudor.</p>",
+      "items": {
+        "Language (Dark Tongue)": {
+          "name": "Hablar idioma (Lengua oscura)"
+        },
+        "Magic Resistance": {
+          "name": "Resistencia a la magia",
+          "description": "<p>La Magia tiene un efecto reducido sobre la criatura. Los NE de cualquier hechizo que la afecte se reducen en la cifra entre paréntesis. Así pues, Resistencia a la Magia 2 reduciría en 2 los NE.</p>"
+        },
+        "Hatred": {
+          "name": "Odio",
+          "description": "<p>Te ves consumido por el Odio hacia el Objetivo, que normalmente suele ser un grupo de personas o de criaturas, como por ejemplo, ‘hochlandeses’, ‘pulpos de las ciénagas’ o ‘esclavistas’. Jamás interaccionarás socialmente con algo o alguien a quien odies de esta forma. Al encontrarte con el objeto de tu Odio, deberás intentar un Chequeo de Psicología. Si fallas, te ves sujeto al Odio.</p>\n<p>Al final de cada asalto subsiguiente, puedes intentar un nuevo Chequeo de Psicología para acabar con el Odio. Si no lo consigues, los efectos del Odio acaban por sí solos de forma natural cuando todos los miembros del grupo especificado han muerto o se han ido, o pasas al Estado @Condition[Inconsciente].</p>\n<p>Mientras te ves sujeto al Odio, debes intentar destruir de inmediato al grupo odiado por el método más rápido y letal posible. Obtienes un bonificador de +1 NE a todos los Chequeos de combate contra el grupo especificado, y eres inmune al Miedo y al Intimidar (pero no al Terror) causados por tu odiado enemigo.</p>"
+        },
+        "Many beautiful, blistering boils": {
+          "name": "Muchos forúnculos hermosos y abrasadores"
+        }
+      }
+    },
+    {
+      "id": "Clothilde Telland",
+      "name": "Clothilde Telland",
+      "species": "Humano",
+      "status": "Oro 4",
+      "gmnotes": "<p>La duquesa viuda está a la busca de su cuarto marido después de que su tercero tuviera un desafortunado accidente de gabarra en los canales de Telland. Es ruidosa, coqueta y está dispuesta a mostrar su gigante gema a cualquiera que esté interesado en contemplar su abundante escote.</p>\n<p>@UUID[JournalEntry.7JmoqchNSsLrwZwz.JournalEntryPage.9F9hrdjcrIXmEJTm#trama-7-el-tigre-rosa]{Trama 7 - El Tigre rosa}</p>"
+    },
+    {
+      "id": "Celestine Hoch",
+      "name": "Celestine Hoch",
+      "tokenName": "Celestine Hoch"
+    },
+    {
+      "id": "Coachman",
+      "name": "Cochero",
+      "tokenName": "Cochero",
+      "species": "Humano",
+      "status": "Plata 2",
+      "gmnotes": "<p>Hay una serie de cocheros y barqueros, todos humanos, alojados en <em>Las Tres Plumas</em>. La mayoría bebe hasta prácticamente la inconsciencia, antes de ir a rastras a la Sala Común.</p>"
+    },
+    {
+      "id": "Detlef Sierck",
+      "name": "Detlef Sierck",
+      "species": "Humano",
+      "status": "Oro 3",
+      "gmnotes": "<p>Sierck es un genio, un hecho que ni siquiera él puede negar. Actor, dramaturgo y poeta sin comparación, ni siquiera sus peores críticos dudan de su brillantez. De cerca, y lejos del maquillaje del escenario, está claro que Detlef ha vivido una buena vida durante algún tiempo: tiene una barriga que disimula con un corsé cuando está en el escenario, y probablemente sea mayor de los 36 años que dice tener, quizás mucho mayor. Lleva un bigote pasado de moda, para ocultar mejor sus dientes marrones, y parece atormentado cuando se lo deja solo. Sin embargo, cuando saca su carisma, el apuesto protagonista que ha perfeccionado tras muchos años de actuaciones extraordinarias, cobra vida, y pocos dejan de quedar impresionados.</p>\n<p>@UUID[JournalEntry.SsYATFVcPahLsAHN.JournalEntryPage.jmhqqWatzKzHAwoV#trama-3-criticas-refutadas]{Trama 3 - Críticas refutadas}</p>",
+      "items": {
+        "Art (Playwriting)": {
+          "name": "Arte (Obras de teatro)"
+        },
+        "Art (Poetry)": {
+          "name": "Arte (Poesía)"
+        },
+        "Entertain (Acting)": {
+          "name": "Animar (Actuar)"
+        },
+        "Lore (the Arts)": {
+          "name": "Sabiduría académica (Arte)"
+        },
+        "Etiquette (Artists)": {
+          "name": "Etiqueta (Artistas)",
+          "description": "<p>Podrás mezclarte socialmente con el grupo elegido mientras vayas vestido de la forma adecuada y actúes con propiedad. Los grupos sociales de ejemplo para este Talento son: delincuentes, sectarios, agremiados, nobles, eruditos, sirvientes y soldados. Si no tienes el Talento, quienes sí lo tienen notarán tu incomodidad en un entorno poco familiar. Esto afecta principalmente a la interpretación del personaje, pero si el DJ lo decide puede suponer una bonificación a los Chequeos de Empatía.</p>"
+        },
+        "Etiquette (Nobles)": {
+          "name": "Etiqueta (Nobles)",
+          "description": "<p>Podrás mezclarte socialmente con el grupo elegido mientras vayas vestido de la forma adecuada y actúes con propiedad. Los grupos sociales de ejemplo para este Talento son: delincuentes, sectarios, agremiados, nobles, eruditos, sirvientes y soldados. Si no tienes el Talento, quienes sí lo tienen notarán tu incomodidad en un entorno poco familiar. Esto afecta principalmente a la interpretación del personaje, pero si el DJ lo decide puede suponer una bonificación a los Chequeos de Empatía.</p>"
+        },
+        "Savant (the Arts)": {
+          "name": "Sabio (Las artes)",
+          "description": "<p>Eres excepcionalmente docto, y tienes un grado significativo de conocimiento especializado en un único campo de estudio. Automáticamente conoces tantos fragmentos de información correcta como tu nivel de Sabio (Saber) acerca de un tema relevante sin tener que chequear tu Habilidad de Sabiduría académica. Un Chequeo, como siempre, proporcionará más información de la forma habitual, según determine el DJ.</p>"
+        },
+        "Savant (History)": {
+          "name": "Sabio (Historia)",
+          "description": "<p>Eres excepcionalmente docto, y tienes un grado significativo de conocimiento especializado en un único campo de estudio. Automáticamente conoces tantos fragmentos de información correcta como tu nivel de Sabio (Saber) acerca de un tema relevante sin tener que chequear tu Habilidad de Sabiduría académica. Un Chequeo, como siempre, proporcionará más información de la forma habitual, según determine el DJ.</p>"
+        },
+        "Very Fine Clothing": {
+          "name": "Ropajes muy buenos",
+          "description": "<p>La vestimenta de los nobles presenta adornos como puños y cuellos de encaje, telas de altísima calidad en exceso y zapatos en punta. Los sirvientes también visten de forma cortesana en banquetes y ceremonias, aunque sus sobreveste y corsés son menos ostentosos que los de los nobles y, por tanto, pueden adquirirse por la mitad de precio.</p>"
+        },
+        "Dress Sword": {
+          "name": "Espada de vestir",
+          "description": "No adecuada para su uso"
+        },
+        "Scribbled Notes": {
+          "name": "Notas garabateadas"
+        },
+        "Gnawing Sense of Loss": {
+          "name": "Sentido insistente de pérdida"
+        }
+      }
+    },
+    {
+      "id": "Nulner Watchman",
+      "name": "Guardia de Nuln",
+      "tokenName": "Guardia de Nuln",
+      "species": "Humano",
+      "notes": "<section class=\"secret\" id=\"secret-4RudtmVM88kGTO5e\">\n    <p><strong>Estatus: </strong>Plata 1</p>\n    <p>La Guardia y escoltas de varios tipos está por todo el teatro y patrulla por fuera. La @UUID[Actor.CcqiAghkzgp9u1In]{Condesa} está presente, por lo que todos quieren impresionarla.</p>\n    <p>La mayoría de las patrullas de la Guardia están dirigidas por @UUID[Actor.nqoyWWVX4oZklgcT]{sargentos}, ya que sus superiores están decididos a que nada salga mal, ya que la @UUID[Actor.CcqiAghkzgp9u1In]{Condesa} está bajo su protección.</p>\n</section>"
+    },
+    {
+      "id": "Petra Steinmetz",
+      "name": "Petra Steinmetz",
+      "species": "Humano",
+      "status": "Oro 1",
+      "gmnotes": "<p>La tranquila Madre Steinmetz fue bendecida por Verena a la tierna edad de siete años, y ha estado aprendiendo derecho, justicia y esgrima desde entonces. Ahora en sus 20 años, es una estrella en alza.</p>"
+    },
+    {
+      "id": "Maria-Ulrike von Liebwitz",
+      "name": "Maria-Ulrike von Liebwitz",
+      "species": "Humano",
+      "status": "Oro 7",
+      "gmnotes": "<p>Tranquila, confiada y segura, la grafina Maria-Ulrike tiene unos 30 años y exuda la nobleza silenciosa de una mujer nacida en el poder. Alta, con el pelo rubio corto, prefiere la última moda de Reikland, aunque se viste de acuerdo con las costumbres locales para causar la mejor impresión. El reikspiel que habla la grafina, es refinado, pero tiene un indicio de una creciente inflexión, que traiciona sus largos inviernos en Nuln.</p>\n<p>@UUID[JournalEntry.g4vOyAOCjOl4EHBO.JournalEntryPage.vCbvOWyg16kon6e7#trama-1-un-asunto-importante]{Trama 1 - Un asunto importante}</p>",
+      "items": {
+        "Lore (Ambosstein)": {
+          "name": "Sabiduría académica (Ambosstein)"
+        },
+        "Lore (Nuln)": {
+          "name": "Sabiduría académica (Nuln)"
+        },
+        "Lore (Politics)": {
+          "name": "Sabiduría académica (Política)"
+        },
+        "Doomed (Blood and betrayal bring thee low)": {
+          "name": "Condenado (la sangre y la traición serán tu ruina)",
+          "description": "<p>A la edad de 10 años, un sacerdote de Morr de los denominados \nPresagiadores te llevó aparte para predecir tu muerte en un ritual de \nmayoría de edad cargado de incienso denominado la Condena. De acuerdo \ncon tu DJ, construid una Condena adecuada. Si tu personaje muere de una \nforma que encaja con tu Condena, tu siguiente personaje obtiene un \nbonificador de la mitad de los PX totales que tu personaje muerto obtuvo\n durante su estancia en la partida.</p>"
+        },
+        "Etiquette (Nobles)": {
+          "name": "Etiqueta (Nobles)",
+          "description": "<p>Podrás mezclarte socialmente con el grupo elegido mientras vayas vestido de la forma adecuada y actúes con propiedad. Los grupos sociales de ejemplo para este Talento son: delincuentes, sectarios, agremiados, nobles, eruditos, sirvientes y soldados. Si no tienes el Talento, quienes sí lo tienen notarán tu incomodidad en un entorno poco familiar. Esto afecta principalmente a la interpretación del personaje, pero si el DJ lo decide puede suponer una bonificación a los Chequeos de Empatía.</p>"
+        },
+        "Jewellery (Various)": {
+          "name": "Joyas",
+          "description": "<p>Los precios varían según la artesanía, el tipo de metal y el valor de las gemas. Como norma general, los anillos comunes sin piedras preciosas cuestan 10 monedas del mismo tipo de metal (es decir, latón, plata u oro), mientras que los collares cuestan 20 monedas del mismo tipo de metal.</p>"
+        },
+        "Best Quality Courtly Garb": {
+          "name": "Ropajes nobles de la corte de gran calidad",
+          "description": "<p>La vestimenta de los nobles presenta adornos como puños y cuellos de encaje, telas de altísima calidad en exceso y zapatos en punta. Los sirvientes también visten de forma cortesana en banquetes y ceremonias, aunque sus sobreveste y corsés son menos ostentosos que los de los nobles y, por tanto, pueden adquirirse por la mitad de precio.</p>"
+        },
+        "Bodyguards": {
+          "name": "Guardaespaldas"
+        },
+        "Duchy of Ambosstein": {
+          "name": "Ducado de Ambosstein"
+        },
+        "Poise": {
+          "name": "Elegancia"
+        },
+        "Servants (Multiple)": {
+          "name": "Sirvientes"
+        }
+      }
+    },
+    {
+      "id": "Wilhelm von Saponatheim",
+      "name": "Wilhelm von Saponatheim",
+      "species": "Humano",
+      "status": "Oro 7",
+      "gmnotes": "<p>El graf Wilhelm lleva toda la vida controlando las cosas, por lo que odia necesitar esta boda por los ingresos que le asegurará. ¡También odia que su @UUID[Actor.rRnBE8V1qUvN44ed]{niñita} se case con un pequeño y llorón nativo de Wissenland! Pero la boda fue organizada por su padre, y a un padre se le obedece. Por lo tanto, frunce el ceño durante las celebraciones, bebiendo una buena cantidad del vino de Tilea aportado por los Ambosstein. Eso hace que todos los ajenos a su corte le parezcan casi tolerables.</p>\n<p>@UUID[JournalEntry.7JmoqchNSsLrwZwz.JournalEntryPage.9F9hrdjcrIXmEJTm#trama-3-un-objeto-de-coleccionista]{Trama 3 - Un objeto de coleccionista}</p>",
+      "items": [
+        {
+          "id": "Lore (Politics)",
+          "name": "Sabiduría académica (Política)"
+        },
+        {
+          "id": "Lore (Reikland)",
+          "name": "Sabiduría académica (Reikland)"
+        },
+        {
+          "id": "Play (Fife)",
+          "name": "Tocar (Flautín)"
+        },
+        {
+          "id": "Etiquette (Nobles)",
+          "name": "Etiqueta (Nobles)",
+          "description": "<p>Podrás mezclarte socialmente con el grupo elegido mientras vayas vestido de la forma adecuada y actúes con propiedad. Los grupos sociales de ejemplo para este Talento son: delincuentes, sectarios, agremiados, nobles, eruditos, sirvientes y soldados. Si no tienes el Talento, quienes sí lo tienen notarán tu incomodidad en un entorno poco familiar. Esto afecta principalmente a la interpretación del personaje, pero si el DJ lo decide puede suponer una bonificación a los Chequeos de Empatía.</p>"
+        }
+      ]
+    },
+    {
+      "id": "Servants, Cleaners, and Similar",
+      "name": "Criados, limpiadores y similares",
+      "tokenName": "Criados, limpiadores y similares",
+      "species": "Humano",
+      "notes": "<section class=\"secret\" id=\"secret-tduNZ5Ng6tPDFp65\">\n    <p><strong>Estatus</strong>: Bronce 3</p>\n    <p>@UUID[Actor.Rbful1SWQ9liRKFk]{Hans Orf}, el propietario de Las Tres Plumas, tiene numeroso personal trabajando para él, incluidos barmans, camareros, chicas de servicio, limpiadores, un mozo de cuadra y el viejo Bess, el herrero.</p>\n</section>",
+      "items": {
+        "Weapon (Bucket/Tool/Tray/Mop)": {
+          "name": "Arma (Cubo/Herramienta/Bandeja/Mopa)"
+        }
+      }
+    },
+    {
+      "id": "Andrea Pfeffer",
+      "name": "Andrea Pfeffer",
+      "tokenName": "Andrea Pfeffer"
+    },
+    {
+      "id": "Jean-Luc de Cadent",
+      "name": "Jean-Luc de Cadent",
+      "tokenName": "Jean-Luc de Cadent"
+    },
+    {
+      "id": "Helga",
+      "name": "Helga",
+      "species": "Humano",
+      "status": "Plata 1",
+      "gmnotes": "<p><strong>Miembros del \n</strong><em><strong>Ordo \nUltima</strong></em><strong> - \n@UUID[Actor.N5yE3yifdjZ77UKU]{Helga}, \n@UUID[Actor.Q5nA8TjPG9UfgBUa]{Elphoise}, \n@UUID[Actor.0Lk2REtzh9XVM8nB]{Allrella}</strong></p>\n<p>Los\n sectarios de <em>Ordo Ultima</em> están lejos de su \nterritorio natal de Nuln. Por lo tanto, beben y hacen todo lo posible \npara no parecer sospechosas mientras observan a \n@UUID[Actor.hDdur1pQxsvvWzXd]{Rechtshandler}, ocasionalmente murmurando \noraciones inventadas a Verena para cimentar su tapadera como eruditas \nviajeras. Cada sectaria tiene una letra O encerrada dentro de una letra U\n tatuada en el seno izquierdo, y todas hablan con acento urbano de \nNuln.</p>\n<p>@UUID[JournalEntry.g4vOyAOCjOl4EHBO.JournalEntryPage.vCbvOWyg16kon6e7#trama-3-un-rostro-del-pasado]{Trama\n 3 - Un rostro del pasado}</p>"
+    },
+    {
+      "id": "Albrecht Oldenhaller",
+      "name": "Albrecht Oldenhaller",
+      "species": "Humano",
+      "notes": "<section class=\"secret\" id=\"secret-l57yQWg2yvVUo1Dt\">\n    <p>@UUID[JournalEntry.SsYATFVcPahLsAHN.JournalEntryPage.jmhqqWatzKzHAwoV#trama-6-honor-familiar]{Trama 6 - Honor familiar}</p>\n</section>"
+    },
+    {
+      "id": "Hanna Anwalt",
+      "name": "Hanna Anwalt",
+      "species": "Humano",
+      "notes": "<section class=\"secret\" id=\"secret-vgK5elaaoApFUvc2\">\n    <p><strong>Estatus</strong>: Oro 2</p>\n    <p>La magistrada Hanna Anwalt está casi ciega, confiando en el ayudante de magistrado @UUID[Actor.PlOiRB8TXUoaWOPz]{Gerhard Urteil} para desplazarse.</p>\n</section>",
+      "items": {
+        "Magistrate's Robes": {
+          "name": "Ropajes de magistrado"
+        },
+        "Book of Law": {
+          "name": "Libro de derecho",
+          "description": "<p>Las leyes varían considerablemente de una región a otra. Las ciudades que disponen de imprentas recopilan la legislación en volúmenes encuadernados, mientras que los jueces de pueblos más pequeños suelen basarse en documentos manuscritos de hace siglos. Los libros de leyes que utilizan abogados o jueces itinerantes suelen combinar páginas impresas y escritas a mano de distintas localidades del Imperio, recopiladas y encuadernadas bajo una misma cubierta.</p>"
+        },
+        "Wig": {
+          "name": "Peluca"
+        }
+      }
+    },
+    {
+      "id": "Reiner",
+      "name": "Reiner",
+      "species": "Humano",
+      "status": "Plata 3",
+      "gmnotes": "<p>El barón @UUID[Actor.hoYxD4qqwxPJai2L]{Eberhardt von Dammenblatz} ordenó a sus dos espías en Nuln, Brocks y Reiner, que finalmente pusieran fin a su trifulca con Liebwitz. Ambos tienen acentos ásperos y callejeros, y ninguno de ellos es especialmente bueno en su trabajo. Si @UUID[Actor.eOlJad1Pky9vNevM]{Dominique} todavía está viva, es enviada a liderarlos, lo que inmediatamente le molesta e irrita, dado que prefiere trabajar sola. Se corta el cabello para la tarea, lo tiñe de rojo, y adopta un fuerte acento de Stirland que no podría sonar más ‘campesino’.</p>",
+      "items": {
+        "Entertain (Act)": {
+          "name": "Animar (Actuar)"
+        }
+      }
+    },
+    {
+      "id": "Joachim Bitterfeld",
+      "name": "Joachim Bitterfeld",
+      "species": "Humano",
+      "status": "Plata 1",
+      "gmnotes": "<p>Nastassia es todo lo que su @UUID[Actor.KfVnMx7Bn1DWErM6]{padre} no es: bajita, dulce y muy dispuesta a huir de sus deberes por amor. @UUID[Actor.Nnas6TyUYFPQJgDa]{Joachim Bitterfeld} ha cautivado su corazón por completo y está decidida a casarse con este valiente. Aunque los aspectos prácticos de ocultar su espantoso acento de clase alta, y de vivir sin sirvientes aún no se le han pasado por la cabeza. Joachim es una persona práctica; de hecho, él se ha ocupado de la mayor parte de la planificación de la fuga de Nastassia.</p>\n<p>@UUID[JournalEntry.7JmoqchNSsLrwZwz.JournalEntryPage.9F9hrdjcrIXmEJTm#trama-2-amantes-desafortunados]{Trama 2 - Amantes desafortunados}</p>"
+    },
+    {
+      "id": "Noble Servant",
+      "name": "Sirviente noble",
+      "tokenName": "Sirviente noble",
+      "species": "Humano",
+      "notes": "<section class=\"secret\" id=\"secret-qfcwQiGTyasAOW6r\">\n    <p><strong>Estatus: </strong>Oro 2</p>\n    <p>La @UUID[Actor.CcqiAghkzgp9u1In]{Condesa} no va a ninguna parte sin sus muchos sirvientes, asistentes y escoltas. Contrariamente al rumor popular, no todos son dioses y diosas bronceados, elegidos porque así place a la Condesa. Sin embargo, la mayoría procede de las casas nobles menores de Nuln, ya que los plebeyos normalmente no suelen asistir a la realeza.</p>\n    <p>A diferencia de muchos de los Condes Electores, la Condesa prefiere no rodearse de escoltas extraídos de las Órdenes de Caballería, en gran parte porque afirma que el ruido incesante de sus armaduras la pone de los nervios.</p>\n</section>"
+    },
+    {
+      "id": "Gerhard Urteil",
+      "name": "Gerhard Urteil",
+      "tokenName": "Gerhard",
+      "species": "Humano",
+      "notes": "<section class=\"secret\" id=\"secret-0aLyNzXtnT54SSlK\">\n    <p><strong>Status</strong>: Oro 2</p>\n    <p>Urteil es teóricamente un hombre poderoso, pero en realidad es poco más que los ojos, las orejas y el cuerpo de Anwalt.</p>\n    <p>@UUID[JournalEntry.pDZu2xSFXlFumvtN.JournalEntryPage.V5nWWGLyW9hWgUbs#trama-5-la-muerte-tenia-un-precio]{Trama 5 - La muerte tenía un precio}</p>\n</section>",
+      "items": {
+        "Magistrate's Robes": {
+          "name": "Ropajes de magistrado"
+        },
+        "Book of Law": {
+          "name": "Libro de derecho",
+          "description": "<p>Las leyes varían considerablemente de una región a otra. Las ciudades que disponen de imprentas recopilan la legislación en volúmenes encuadernados, mientras que los jueces de pueblos más pequeños suelen basarse en documentos manuscritos de hace siglos. Los libros de leyes que utilizan abogados o jueces itinerantes suelen combinar páginas impresas y escritas a mano de distintas localidades del Imperio, recopiladas y encuadernadas bajo una misma cubierta.</p>"
+        },
+        "Wig": {
+          "name": "Peluca"
+        }
+      }
+    },
+    {
+      "id": "Elphoise",
+      "name": "Elphoise",
+      "species": "Humano",
+      "status": "Plata 1",
+      "gmnotes": "<p><strong>Miembros del \n</strong><em><strong>Ordo \nUltima</strong></em><strong> - \n@UUID[Actor.N5yE3yifdjZ77UKU]{Helga}, \n@UUID[Actor.Q5nA8TjPG9UfgBUa]{Elphoise}, \n@UUID[Actor.0Lk2REtzh9XVM8nB]{Allrella}</strong></p>\n<p>Los\n sectarios de <em>Ordo Ultima</em> están lejos de su \nterritorio natal de Nuln. Por lo tanto, beben y hacen todo lo posible \npara no parecer sospechosas mientras observan a \n@UUID[Actor.hDdur1pQxsvvWzXd]{Rechtshandler}, ocasionalmente murmurando \noraciones inventadas a Verena para cimentar su tapadera como eruditas \nviajeras. Cada sectaria tiene una letra O encerrada dentro de una letra U\n tatuada en el seno izquierdo, y todas hablan con acento urbano de \nNuln.</p>\n<p>@UUID[JournalEntry.g4vOyAOCjOl4EHBO.JournalEntryPage.vCbvOWyg16kon6e7#trama-3-un-rostro-del-pasado]{Trama\n 3 - Un rostro del pasado}</p>"
+    },
+    {
+      "id": "Nurgle Cultists",
+      "name": "Sectarios de Nurgle",
+      "tokenName": "Aficionado a la ópera",
+      "species": "Humano",
+      "notes": "<section class=\"secret\" id=\"secret-cimXGMgUXPEBCp3a\">\n    <p>Martyn Ruchen tiene un brillo febril en los ojos mientras se frota las alegres manos con verrugas. Una gema sagrada para Nurgle, el dios del Caos de la Enfermedad y la Desesperación, pronto estará en sus manos, y apenas puede contener la emoción. ¡Todo lo que necesita es capturar a @UUID[Actor.N7Q3O6n7JH8nvyUF]{Albrecht Oldenhaller}!</p>\n    <p>Ruchen lleva tres meses dirigiendo la célula local de la secta de la Larva Santificada: recientemente vio, con lágrimas de alegría en los ojos, que el Señor de la Peste reclamaba a la sacerdotisa anterior, que murió de una multitud de hermosas y florecientes enfermedades - y está ansioso por hacerlo al menos tan bien como su predecesora.</p>\n    <p>Si se le da conversación, Martyn murmura disculpas con su voz ronca y se retira rápidamente con sus @UUID[Actor.QfuTho9iwb2q6MRp]{amigos sectarios}, todos los cuales van vestidos como sórdidos comerciantes. Martyn huele vagamente a jamón podrido y a sudor.</p>\n</section>"
+    },
+    {
+      "id": "Heinrich Böttcher",
+      "name": "Heinrich Böttcher",
+      "species": "Humano",
+      "status": "Oro 3",
+      "items": {
+        "Bulging Biceps": {
+          "name": "Bíceps marcados"
+        },
+        "Room": {
+          "name": "Habitación"
+        }
+      }
+    },
+    {
+      "id": "Hanna Lastkahn",
+      "name": "Hanna Lastkahn",
+      "species": "Humano",
+      "status": "Plata 2",
+      "gmnotes": "<p>Los ‘Schmidt’ están coladitos mutuamente. Es la novena vez que el barón @UUID[Actor.c1xQoGCb6RoiTpx8]{Friedrich} se ha enamorado de una mujer no disponible, por lo que sabe que es real. Fraulein Lastkahn está enamorada por vez primera y (obviamente) es un amor como nunca antes. Está claro para cualquiera que preste atención que los buenos modales, los nobles ropajes y el acento culto de Freidrich no encajan naturalmente con el nombre ‘Johann Schmidt’, o con la evidente clase baja de ‘Frau Schmidt’.</p>\n<p>@UUID[JournalEntry.g4vOyAOCjOl4EHBO.JournalEntryPage.vCbvOWyg16kon6e7#trama-2-posturas-comprometedoras]{Trama 2 - Posturas comprometedoras}</p>",
+      "items": {
+        "Love Letters": {
+          "name": "Cartas de amor"
+        },
+        "Fluttering Heart": {
+          "name": "Corazón revuelto"
+        },
+        "Rose": {
+          "name": "Rosa"
+        }
+      }
+    },
+    {
+      "id": "Hans Orf",
+      "name": "Hans Orf",
+      "species": "Humano",
+      "status": "Plata 2",
+      "gmnotes": "<p>Hans Orf, el propietario de Las Tres Plumas, tiene numeroso personal trabajando para él, incluidos barmans, camareros, chicas de servicio, limpiadores, un mozo de cuadra y el @UUID[Actor.pwoTTFN0FAQ66Vhv]{viejo Bess}, el herrero.</p>"
+    },
+    {
+      "id": "Matthias Hubkind",
+      "name": "Matthias Hubkind",
+      "species": "Humano",
+      "status": "Plata 3",
+      "gmnotes": "<p>El huérfano más prometedor criado por la Orden flagelante de los Tres Hermanos en una generación, Hubkind llegó a Altdorf hace 40 años para entrenarse como cazador de brujas. Ahora tiene tres décadas de experiencia quemando a los enemigos de Sigmar, y persigue incansablemente tan sagrado deber. Sospecha de todos y rara vez habla, excepto para pronunciar un juicio sonoro sobre los herejes.</p>\n<p>Aunque ya tiene 50 años, el cuerpo de Matthias sigue siendo fuerte, y su voluntad es aún más fuerte. Su espalda es una red de cicatrices ganadas por décadas de purificar su alma con bendito dolor.</p>\n<p>@UUID[JournalEntry.pDZu2xSFXlFumvtN.JournalEntryPage.V5nWWGLyW9hWgUbs#trama-4-inocencia-mantenida]{Trama 4 - Inocencia mantenida}</p>",
+      "items": {
+        "Lore (Sigmar)": {
+          "name": "Sabiduría académica (Sigmar)"
+        },
+        "Lore (Torture)": {
+          "name": "Sabiduría académica (Tortura)"
+        },
+        "Hatred": {
+          "name": "Odio",
+          "description": "<p>Te ves consumido por el Odio hacia el Objetivo, que normalmente suele ser un grupo de personas o de criaturas, como por ejemplo, ‘hochlandeses’, ‘pulpos de las ciénagas’ o ‘esclavistas’. Jamás interaccionarás socialmente con algo o alguien a quien odies de esta forma. Al encontrarte con el objeto de tu Odio, deberás intentar un Chequeo de Psicología. Si fallas, te ves sujeto al Odio.</p>\n<p>Al final de cada asalto subsiguiente, puedes intentar un nuevo Chequeo de Psicología para acabar con el Odio. Si no lo consigues, los efectos del Odio acaban por sí solos de forma natural cuando todos los miembros del grupo especificado han muerto o se han ido, o pasas al Estado @Condition[Inconsciente].</p>\n<p>Mientras te ves sujeto al Odio, debes intentar destruir de inmediato al grupo odiado por el método más rápido y letal posible. Obtienes un bonificador de +1 NE a todos los Chequeos de combate contra el grupo especificado, y eres inmune al Miedo y al Intimidar (pero no al Terror) causados por tu odiado enemigo.</p>"
+        },
+        "Silvered Sword": {
+          "name": "Espada de plata"
+        },
+        "Magnificent Hat": {
+          "name": "Sombrero imponente",
+          "description": "Los sombreros de gran calidad son un símbolo de estatus en las ciudades y pueblos del Imperio. Cuanto más extravagante, mejor."
+        },
+        "Book of Sigmar": {
+          "name": "Libro de Sigmar",
+          "description": "Los libros religiosos adoptan todo tipo de formas en el Imperio, un lugar reconocido por su fervor. Hay un ávido mercado con los textos más populares, y la mayoría de estos se producen por bajo coste en las imprentas."
+        },
+        "Finger Bone of St. Helga": {
+          "name": "Hueso del dedo de Sta. Helga"
+        }
+      }
+    },
+    {
+      "id": "Edvard Lowenhertz",
+      "name": "Edvard Lowenhertz",
+      "tokenName": "\"Drachenfels\"",
+      "species": "Humano",
+      "status": "Bronce 3",
+      "gmnotes": "<p>@UUID[Actor.UQ2EKtuW4BmJcbJc]{Edvard Lowenhertz} tiene una voz rica que rezuma melodrama escénico, incluso cuando habla del tiempo. Su hija, Edwina, está impresionada por su padre, y le ha alentado proactivamente durante años a vengarse de quienes lo criticaron. Después de todo, se le rompe el corazón cuando su padre lee y relee aquellas primeras críticas; entonces fluyen las lágrimas y gobierna la desesperanza. Para asegurarse de no ser reconocida en el teatro, ya que asiste a espectáculos allí con frecuencia, Edwina usa un bigote falso que es poco probable que engañe a nadie.</p>\n<p>@UUID[JournalEntry.SsYATFVcPahLsAHN.JournalEntryPage.jmhqqWatzKzHAwoV#trama-3-criticas-refutadas]{Trama 3 - Críticas refutadas}</p>",
+      "items": {
+        "Armour (Leather Costume)": {
+          "name": "Armadura (Disfraz de cuero)",
+          "description": "<p>La criatura está protegida por armadura o por una piel gruesa. Dispone de tantos puntos de Armadura como la cifra entre paréntesis en todas las Ubicaciones de impacto.</p>"
+        },
+        "Hatred": {
+          "name": "Odio",
+          "description": "<p>Te ves consumido por el Odio hacia el Objetivo, que normalmente suele ser un grupo de personas o de criaturas, como por ejemplo, ‘hochlandeses’, ‘pulpos de las ciénagas’ o ‘esclavistas’. Jamás interaccionarás socialmente con algo o alguien a quien odies de esta forma. Al encontrarte con el objeto de tu Odio, deberás intentar un Chequeo de Psicología. Si fallas, te ves sujeto al Odio.</p>\n<p>Al final de cada asalto subsiguiente, puedes intentar un nuevo Chequeo de Psicología para acabar con el Odio. Si no lo consigues, los efectos del Odio acaban por sí solos de forma natural cuando todos los miembros del grupo especificado han muerto o se han ido, o pasas al Estado @Condition[Inconsciente].</p>\n<p>Mientras te ves sujeto al Odio, debes intentar destruir de inmediato al grupo odiado por el método más rápido y letal posible. Obtienes un bonificador de +1 NE a todos los Chequeos de combate contra el grupo especificado, y eres inmune al Miedo y al Intimidar (pero no al Terror) causados por tu odiado enemigo.</p>"
+        },
+        "Entangle": {
+          "name": "Enmarañar",
+          "description": "<p>Rezas a Taal, cantando plegarias para que proteja sus lugares sagrados. Raíces, enredaderas y plantas trepadoras se enroscan alrededor de tus enemigos. Todos los objetivos en un radio de tantas yardas como tu Bonificador por Empatía del punto objetivo sufren 1 Estado de @Condition[Enmarañado]. Por cada +2 NE, puedes incrementar el Área de efecto en tantas yardas como tu Bonificador por Empatía, o infligir un Estado adicional de @Condition[Enmarañado]. Dicho estado tiene una Fuerza igual a tu Voluntad, a efectos de liberarse de tus ligaduras.</p>"
+        }
+      }
+    },
+    {
+      "id": "Ursula Kopfgeld",
+      "name": "Úrsula Kopfgeld",
+      "tokenName": "Úrsula Kopfgeld",
+      "species": "Humano",
+      "status": "Plata 5",
+      "gmnotes": "<p>Úrsula fue criada lejos, hacia el este, en el límite con Kislev, con vistas al helado Oblast Occidental, y no soporta tonterías. Ha trabajado como cazarrecompensas durante más de una década, y se enorgullece de su trabajo. Tiene un profundo acento de Ostland, lo que significa que hace una pausa antes de las palabras cuando las enfatiza, y con frecuencia se la toma por kislevita.</p>\n<p>@UUID[JournalEntry.g4vOyAOCjOl4EHBO.JournalEntryPage.vCbvOWyg16kon6e7#trama-6-por-un-punado-de-oro]{Trama 6 - Por un puñado de Oro}</p>",
+      "items": {
+        "Bad Attitude": {
+          "name": "Mal talante"
+        }
+      }
+    },
+    {
+      "id": "Brocks",
+      "name": "Brocks",
+      "species": "Humano",
+      "status": "Plata 3",
+      "gmnotes": "<p>El barón @UUID[Actor.hoYxD4qqwxPJai2L]{Eberhardt von Dammenblatz} ordenó a sus dos espías en Nuln, Brocks y Reiner, que finalmente pusieran fin a su trifulca con Liebwitz. Ambos tienen acentos ásperos y callejeros, y ninguno de ellos es especialmente bueno en su trabajo. Si @UUID[Actor.eOlJad1Pky9vNevM]{Dominique} todavía está viva, es enviada a liderarlos, lo que inmediatamente le molesta e irrita, dado que prefiere trabajar sola. Se corta el cabello para la tarea, lo tiñe de rojo, y adopta un fuerte acento de Stirland que no podría sonar más ‘campesino’.</p>",
+      "items": {
+        "Entertain (Act)": {
+          "name": "Animar (Actuar)"
+        }
+      }
+    },
+    {
+      "id": "Servant",
+      "name": "Sirviente",
+      "tokenName": "Sirviente",
+      "species": "Humano",
+      "notes": "<section class=\"secret\" id=\"secret-jdvdXe9yC7OpKlhp\">\n    <p><strong>Estatus: </strong>Plata 1</p>\n    <p>El teatro Staatsoper emplea personal de todo tipo para atender y entretener a la élite culta de Nuln.</p>\n</section>"
+    },
+    {
+      "id": "Big 'Curls'",
+      "name": "Gran 'Rizos'",
+      "tokenName": "Gran 'Rizos'",
+      "species": "Humano",
+      "status": "Bronce 3",
+      "gmnotes": "<p>@UUID[Actor.1gLZGKozh6nrBjGr]{Thomas} es un hombre poderoso bastante acostumbrado al mando, ya sea con sus barcos, sus zonas de contrabando o con su @UUID[Actor.RVDzvuNLOyMHpboL]{futura esposa}. Al enterarse de las infidelidades de su prometida con el barón, llamó a @UUID[Actor.qKIlKSoDoQYCTMGE]{Tío Mho}, @UUID[Actor.0SY3YBbsrNa6bvZ6]{Loco Larz} y a @UUID[Actor.Wnn6QYqqbvG5gotp]{Gran ‘Rizos’} para que lo ayudaran a enseñarle unas valiosas lecciones al amante de su esposa. Todos ellos hablan con acentos del Reikland de clase baja.</p>\n<p>@UUID[JournalEntry.g4vOyAOCjOl4EHBO.JournalEntryPage.vCbvOWyg16kon6e7#trama-4-haciendo-una-escena]{Trama 4 - Haciendo una escena}</p>"
+    },
+    {
+      "id": "Heinrich von Falkenhayn",
+      "name": "Heinrich von Falkenhayn",
+      "tokenName": "Heinrich von Falkenhayn"
+    },
+    {
+      "id": "Mercinellin 'Seedling' Thorncobble",
+      "name": "Mercinellin 'Semillita' Adoquínespinoso",
+      "tokenName": "Mercinellin 'Semillita' Adoquínespinoso",
+      "status": "Bronce 1",
+      "gmnotes": "<p>Semillita es una Mediana del distinguido clan Adoquínespinoso de Altdorf. Está actualmente en busca y captura por sus actos y está mirando de hacer algo de dinero apostando y cotilleando. Como muchos de los Adoquínespinoso, tiene una dicción impecable, y su acento de clase alta sorprende a quienes no están acostumbrados a esta forma de hablar en los halflings.</p>",
+      "items": {
+        "Lore (Reikland)": {
+          "name": "Sabiduría académica (Reikland)"
+        },
+        "Play (Lyre)": {
+          "name": "Tocar (Lira)"
+        },
+        "Lyre": {
+          "name": "Lira"
+        }
+      }
+    },
+    {
+      "id": "Josef Aufwiegler",
+      "name": "Josef Aufwiegler",
+      "species": "Humano",
+      "status": "Bronce 3",
+      "gmnotes": "<p>Josef Aufwiegler es el ‘cuerpo’ que los ‘morrianos’ llevan en su ataúd. Aufwiegler es un agitador buscado por incitar disturbios en Nuln. Aunque pagó a los contrabandistas para que lo transportaran a un lugar seguro, no esperaba ser drogado. O ser trasladado en un ataúd. ¡O estar rodeado de morrianos con el rostro pintado como una calavera cuando se despertara! Cuando se despierta, confundido y aturdido por las drogas, Josef entra en un estado de pánico.</p>"
+    },
+    {
+      "id": "Huydermans",
+      "name": "Huyderman",
+      "tokenName": "Huyderman",
+      "species": "Humano",
+      "status": "Plata 1",
+      "gmnotes": "<p>Tres bandas criminales rivales, los @UUID[Actor.2hX69vBEAZncOLdT]{Valentina}, los @UUID[Actor.0LL9UcyxDQ2Qzx9T]{Schatzenheimer} y los @UUID[Actor.YYkCsVTcW7PlLxLK]{Huyderman}, han enviado cada una un asesino al Teatro Staatsoper, y cada uno pretende ser quien mate al objetivo: Albrecht Oldenhaller. Sin embargo, Oldenhaller tiene protectores insospechados en forma de la secta de la Larva Santificada, que adora a Nurgle, por lo que los asesinos tienen mucho más de que preocuparse que de sus rivales pandilleros.</p>",
+      "items": {
+        "Ring": {
+          "name": "Anillo",
+          "description": "<p>Contiene un compartimento oculto con una dosis de @UUID[Compendium.wfrp4e-core.items.JbSjlgUdzsl5ok95]{Rompecorazones}</p><p>Los anillos de oro con sellos grabados son llevados por nobles y oficiales de gremio, quienes los utilizan para estampar escudos heráldicos o insignias en cera de sellado.</p>"
+        }
+      }
+    },
+    {
+      "id": "Pfeifraucher Noble",
+      "name": "Noble Pfeifraucher",
+      "tokenName": "Noble Pfeifraucher",
+      "species": "Humano",
+      "notes": "<section class=\"secret\" id=\"secret-5MJTknqncOiVRaZ7\">\n        <p><strong>Estatus:</strong> Oro 1</p>\n<p>Hay turbulencias por todo el Imperio (ver la campaña <strong>El enemigo interior</strong> para más información), por lo que muchos de nobles locales, especialmente los Toppenheimer y los Pfiefraucher, buscan pelea.</p>\n    <p>@UUID[JournalEntry.SsYATFVcPahLsAHN.JournalEntryPage.jmhqqWatzKzHAwoV#trama-5-rivalidades-locales]{Trama 5 - Rivalidades locales}</p>\n</section>"
+    },
+    {
+      "id": "Otto Krupp",
+      "name": "Otto Krupp",
+      "tokenName": "Otto Krupp"
+    },
+    {
+      "id": "Heinrich von Bruner",
+      "name": "Heinrich von Bruner",
+      "tokenName": "Heinrich von Bruner"
+    },
+    {
+      "id": "Musician",
+      "name": "Músicos",
+      "tokenName": "Músico",
+      "species": "Humano",
+      "notes": "<section class=\"secret\" id=\"secret-jdvdXe9yC7OpKlhp\">\n    <p><strong>Estatus: </strong>Plata 1</p>\n    <p>El teatro Staatsoper emplea personal de todo tipo para atender y entretener a la élite culta de Nuln.</p>\n</section>",
+      "items": {
+        "Play (Various)": {
+          "name": "Tocar (Varios)"
+        },
+        "Weapon (Instrument)": {
+          "name": "Arma (Instrumento)",
+          "description": "<p>La criatura lleva un arma cuerpo a cuerpo, o bien utiliza dientes, zarpas o cosas similares en combate. El arma causa tanto daño como la cifra entre paréntesis, que ya incluye el Bonificador por Fuerza de la criatura. Típicamente será 4 + Bonificador por Fuerza (lo que representa un Arma de mano).</p>"
+        }
+      }
+    },
+    {
+      "id": "Siegfried von Saponatheim",
+      "name": "Siegfried von Saponatheim",
+      "tokenName": "Siegfried von Saponatheim"
+    },
+    {
+      "id": "Freidrich von Pfeifraucher",
+      "name": "Freidrich von Pfeifraucher",
+      "tokenName": "Johann Schmidt",
+      "species": "Humano",
+      "status": "Oro 5",
+      "gmnotes": "<p>Los ‘Schmidt’ están coladitos mutuamente. Es la novena vez que el barón Freidrich se ha enamorado de una mujer no disponible, por lo que sabe que es real. Fraulein @UUID[Actor.RVDzvuNLOyMHpboL]{Lastkahn} está enamorada por vez primera y (obviamente) es un amor como nunca antes. Está claro para cualquiera que preste atención que los buenos modales, los nobles ropajes y el acento culto de Freidrich no encajan naturalmente con el nombre ‘Johann Schmidt’, o con la evidente clase baja de ‘Frau Schmidt’.</p>\n<p>@UUID[JournalEntry.g4vOyAOCjOl4EHBO.JournalEntryPage.vCbvOWyg16kon6e7#trama-2-posturas-comprometedoras]{Trama 2 - Posturas comprometedoras}</p>",
+      "items": {
+        "Jewellry": {
+          "name": "Joyería",
+          "description": "<p>Los precios varían según la artesanía, el tipo de metal y el valor de las gemas. Como norma general, los anillos comunes sin piedras preciosas cuestan 10 monedas del mismo tipo de metal (es decir, bronce, plata u oro), mientras que los collares cuestan 20 monedas del mismo tipo de metal.</p>"
+        },
+        "Poems": {
+          "name": "Poemas"
+        }
+      }
+    },
+    {
+      "id": "Ordo Ultima Cultist",
+      "name": "Sectario de Ordo Ultima",
+      "tokenName": "Elphoise",
+      "species": "Humano",
+      "status": "Plata 1",
+      "gmnotes": "<p>Los sectarios de <em>Ordo Ultima</em> están lejos de su territorio natal de Nuln. Por lo tanto, beben y hacen todo lo posible para no parecer sospechosas mientras observan a @UUID[Actor.hDdur1pQxsvvWzXd]{Rechtshandler}, ocasionalmente murmurando oraciones inventadas a Verena para cimentar su tapadera como eruditas viajeras. Cada sectaria tiene una letra O encerrada dentro de una letra U tatuada en el seno izquierdo, y todas hablan con acento urbano de Nuln.</p>\n<p>@UUID[JournalEntry.pDZu2xSFXlFumvtN.JournalEntryPage.V5nWWGLyW9hWgUbs#trama-3-indiscreciones-juveniles]{Trama 3 - Indiscreciones juveniles}</p>"
+    },
+    {
+      "id": "Hubkind’s Mob",
+      "name": "La banda de Hubkind",
+      "tokenName": "Banda de Hubkind",
+      "species": "Humano",
+      "notes": "<section class=\"secret\" id=\"secret-XerHasCihJeBuTFp\">\n    <p><strong>Estatus: </strong>Bronce 4</p>\n    <p>Los cómplices, espías, ejecutores y matones de @UUID[Actor.S6MLSMjvCEjPcaEw]{Matthias Hubkind}</p>\n</section>",
+      "items": {
+        "Cudgel": {
+          "name": "Garrote"
+        }
+      }
+    },
+    {
+      "id": "Dominique Herveaux",
+      "name": "Dominique Herveaux",
+      "tokenName": "Eliza",
+      "species": "Humano",
+      "status": "Oro 1",
+      "gmnotes": "<p>‘Eliza la criada’ es en realidad una asesina contratada por el @UUID[Actor.hoYxD4qqwxPJai2L]{barón von Dammenblatz} para matar al @UUID[Actor.jCSHbThjx9ti6rR1]{campeón judicial} de la @UUID[Actor.J8AHNs6dcy40mhXr]{grafina Maria-Ulrike}. Interpreta el papel de una doncella tímida y entrada en carnes, y está totalmente dispuesta a soportar cualquier indignidad para acercarse a su objetivo.</p>\n<p>Si su tapadera se revela, insultará en su bretoniano natal, que en nada recuerda a su perfecto reikspiel, antes de huir a la carrera.</p>",
+      "items": {
+        "Animal Training (Snake)": {
+          "name": "Adiestrar animales (Serpiente)"
+        },
+        "Entertain (Act)": {
+          "name": "Animar (Actuar)"
+        },
+        "Entertain (Taunt)": {
+          "name": "Animar (Burla)"
+        },
+        "Etiquette (Servants)": {
+          "name": "Etiqueta (Sirvientes)",
+          "description": "<p>Podrás mezclarte socialmente con el grupo elegido mientras \nvayas vestido de la forma adecuada y actúes con propiedad. Los grupos \nsociales de ejemplo para este Talento son: delincuentes, sectarios, \nagremiados, nobles, eruditos, sirvientes y soldados. Si no tienes el \nTalento, quienes sí lo tienen notarán tu incomodidad en un entorno poco \nfamiliar. Esto afecta principalmente a la interpretación del personaje, \npero si el DJ lo decide puede suponer una bonificación a los Chequeos de\n Empatía.</p>"
+        },
+        "Poisoned Dagger": {
+          "name": "Daga envenenada",
+          "gmdescription": "<p><strong>Daga envenenada:</strong> La primera herida infligida por esta arma aplica @UUID[Compendium.wfrp4e-core.items.JbSjlgUdzsl5ok95]{Rompecorazones}; la hoja está untada con suficiente veneno para tres golpes más.</p>",
+          "special": "La primera herida infligida por esta arma aplica Rompecorazones"
+        },
+        "Servant's Clothing": {
+          "name": "Ropas de sirviente"
+        }
+      }
+    },
+    {
+      "id": "Cultist of the Jade Sceptre",
+      "name": "Sectarios del Cetro de Jade",
+      "tokenName": "Noble",
+      "species": "Humano",
+      "notes": "<section class=\"secret\" id=\"secret-oimVbag1l2hbo3z4\">\n    <p><strong>Estatus: </strong>Oro 2</p>\n    <p>Estos jóvenes nobles y tontos se pierden en la búsqueda de la indulgencia sin fin de los placeres prohibidos, y no buscan nada más que aplacar su sed oscura con la sangre de sus compañeros. Esta no es la primera vez que convocan @UUID[Compendium.wfrp4e-core.actors.8gG2Wim6wAlJWRax]{diablillas} y, si se salen con la suya, no será la última.</p>\n    <p>@UUID[JournalEntry.7JmoqchNSsLrwZwz.JournalEntryPage.9F9hrdjcrIXmEJTm#trama-5-actos-indescriptibles]{Trama 5 - Actos indescriptibles}</p>\n</section>",
+      "items": [
+        {
+          "id": "Manifest Lesser Daemon*",
+          "name": "Manifestar demonio menor*",
+          "description": "<p>Canalizas un flujo enfermizo de <em>Dhar</em>, ocasionando brevemente un desgarro en el tejido de la realidad. De inmediato se manifiesta un demonio menor a través del desgarro (dos ejemplos de esto: un desangrador o una diablilla). Debes llevar a cabo un Chequeo <strong>Enfrentado</strong> de <strong>Canalización (Dhar)/ Voluntad</strong> con el demonio. Si tienes éxito, el demonio responderá a una orden dada por ti, de forma literal, y después desaparecerá (suponiendo que la orden haya sido completada antes de acabar la Duración). Si fallas, el demonio te ataca de inmediato.</p><p><strong>Nota:</strong> los Sectarios solo pueden lanzar Manifestar demonio menor cuando están todos juntos. Cada sectario lo hace una vez, invocando en el acto a una @UUID[Compendium.wfrp4e-core.actors.8gG2Wim6wAlJWRax]{diablilla}."
+        }
+      ]
+    },
+    {
+      "id": "Florian Pfeifraucher",
+      "name": "Florian Pfeifraucher",
+      "tokenName": "Florian Pfiefraucher"
+    },
+    {
+      "id": "Jendrik von Dabernick",
+      "name": "Jendrik von Dabernick",
+      "tokenName": "Jendrik von Dabernick"
+    },
+    {
+      "id": "Gustaf Rechtshandler",
+      "name": "Gustaf Rechtshandler",
+      "species": "Humano",
+      "status": "Oro 1",
+      "gmnotes": "<p>Gustaf, un hombre con muchas ínfulas y que habla machaconamente con un acento pulido, tiene casi cincuenta años. Adora ser el centro de la atención, por lo que aprovecha cualquier oportunidad para interrumpir las conversaciones y demostrar sus conocimientos. No saber nada sobre el tema en cuestión no es impedimento: simplemente parafrasea lo que otros dicen a su alrededor como si fueran ideas suyas. Cuando entra en pánico, su bien entrenado acento se evapora al vulgar argot de Nuln de su juventud.</p>\n<p>@UUID[JournalEntry.g4vOyAOCjOl4EHBO.JournalEntryPage.vCbvOWyg16kon6e7#trama-3-un-rostro-del-pasado]{Trama 3 - Un rostro del pasado}</p>",
+      "items": {
+        "Entertain (Speeches)": {
+          "name": "Animar (Discursos)"
+        },
+        "Lore (Nuln)": {
+          "name": "Sabiduría académica (Nuln)"
+        },
+        "Doomed (Thy end shalt be prickly!)": {
+          "name": "Condenado (¡Tu final será punzante!)",
+          "description": "<p>A la edad de 10 años, un sacerdote de Morr de los denominados Presagiadores te llevó aparte para predecir tu muerte en un ritual de mayoría de edad cargado de incienso denominado la Condena. De acuerdo con tu DJ, construid una Condena adecuada. Si tu personaje muere de una forma que encaja con tu Condena, tu siguiente personaje obtiene un bonificador de la mitad de los PX totales que tu personaje muerto obtuvo durante su estancia en la partida.</p>"
+        },
+        "Etiquette (Guilder)": {
+          "name": "Etiqueta (Gremial)",
+          "description": "<p>Podrás mezclarte socialmente con el grupo elegido mientras vayas vestido de la forma adecuada y actúes con propiedad. Los grupos sociales de ejemplo para este Talento son: delincuentes, sectarios, agremiados, nobles, eruditos, sirvientes y soldados. Si no tienes el Talento, quienes sí lo tienen notarán tu incomodidad en un entorno poco familiar. Esto afecta principalmente a la interpretación del personaje, pero si el DJ lo decide puede suponer una bonificación a los Chequeos de Empatía.</p>"
+        },
+        "Etiquette (Scholar)": {
+          "name": "Etiqueta (Erudito)",
+          "description": "<p>Podrás mezclarte socialmente con el grupo elegido mientras \nvayas vestido de la forma adecuada y actúes con propiedad. Los grupos \nsociales de ejemplo para este Talento son: delincuentes, sectarios, \nagremiados, nobles, eruditos, sirvientes y soldados. Si no tienes el \nTalento, quienes sí lo tienen notarán tu incomodidad en un entorno poco \nfamiliar. Esto afecta principalmente a la interpretación del personaje, \npero si el DJ lo decide puede suponer una bonificación a los Chequeos de\n Empatía.</p>"
+        },
+        "Lawyer's Robes": {
+          "name": "Ropajes de abogado"
+        },
+        "Powdered Wig": {
+          "name": "Peluca empolvada"
+        },
+        "Towering Sense of Self-Importance": {
+          "name": "Elevado sentido de la arrogancia"
+        }
+      }
+    },
+    {
+      "id": "Gert",
+      "name": "Gert",
+      "species": "Humano",
+      "status": "Bronce 3",
+      "gmnotes": "<p>@UUID[Actor.hVO7ScsPtmyul85F]{Gert} y @UUID[Actor.ykdWommB6UYZR0EE]{Jan} son dos de los matones más capaces y presentables de Albrecht el Pez. Pero no importa cuánto intenten encajar, no son capaces de hacerlo. Su comportamiento, sus modales y su cantarín acento de Marienburgo los hacen llamativos. Son inconfundibles para cualquiera que preste atención.</p>\n<p>@UUID[JournalEntry.7JmoqchNSsLrwZwz.JournalEntryPage.9F9hrdjcrIXmEJTm#trama-4-cosas-de-los-negocios]{Trama 4 - Cosas de los negocios}</p>"
+    },
+    {
+      "id": "Emmanuelle Nacht",
+      "name": "Emmanuelle Nacht",
+      "tokenName": "Knights Panther"
+    },
+    {
+      "id": "Eberhardt von Dammenblatz",
+      "name": "Eberhardt von Dammenblatz",
+      "species": "Humano",
+      "status": "Oro 7",
+      "gmnotes": "<p>Más cerca de los cuarenta que de los treinta, Eberhardt lleva enfadado toda la vida. Aunque sus años en el Ejército Estatal lo han dejado relativamente en forma, nunca ha sido un gran luchador, prefiriendo el debate feroz a las soluciones físicas. De hecho, discute mucho. Como la mayor parte de la nobleza de Wissenland, su acento es urbano, pero algo monótono.</p>\n<p>@UUID[JournalEntry.pDZu2xSFXlFumvtN.JournalEntryPage.V5nWWGLyW9hWgUbs#trama-1-juicio-por-combate]{Trama 1 - Juicio por combate}</p>",
+      "items": {
+        "Lore (Politics)": {
+          "name": "Sabiduría académica (Política)"
+        },
+        "Lore (Wissenland)": {
+          "name": "Sabiduría académica (Wissenland)"
+        },
+        "Etiquette (Nobles)": {
+          "name": "Etiqueta (Nobles)",
+          "description": "<p>Podrás mezclarte socialmente con el grupo elegido mientras vayas vestido de la forma adecuada y actúes con propiedad. Los grupos sociales de ejemplo para este Talento son: delincuentes, sectarios, agremiados, nobles, eruditos, sirvientes y soldados. Si no tienes el Talento, quienes sí lo tienen notarán tu incomodidad en un entorno poco familiar. Esto afecta principalmente a la interpretación del personaje, pero si el DJ lo decide puede suponer una bonificación a los Chequeos de Empatía.</p>"
+        },
+        "Best Quality Courtly Garb": {
+          "name": "Ropa cortesana de la mejor calidad",
+          "description": "<p>La vestimenta de los nobles presenta adornos como puños y cuellos de encaje, telas de altísima calidad en exceso y zapatos en punta. Los sirvientes también visten de forma cortesana en banquetes y ceremonias, aunque sus sobreveste y corsés son menos ostentosos que los de los nobles y, por tanto, pueden adquirirse por la mitad de precio.</p>"
+        },
+        "Jewellry": {
+          "name": "Joyería",
+          "description": "<p>Los precios varían según la artesanía, el tipo de metal y el valor de las gemas. Como norma general, los anillos comunes sin piedras preciosas cuestan 10 monedas del mismo tipo de metal (es decir, latón, plata u oro), mientras que los collares cuestan 20 monedas del mismo tipo de metal.</p>"
+        },
+        "Large retinue of staff": {
+          "name": "Gran séquito de personal"
+        }
+      }
+    },
+    {
+      "id": "Bruno Franke",
+      "name": "Bruno Franke",
+      "species": "Humano",
+      "status": "Oro 3",
+      "gmnotes": "<p>Bruno, el campeón judicial de la @UUID[Actor.J8AHNs6dcy40mhXr]{grafina}, es una torre de músculos con una cara sonriente que insinúa travesuras. Su acento de Altdorf es fuerte: nació en la capital imperial de padres adoptivos sureños hace casi cuarenta años. Tiene una risa distintiva y contagiosa, y le encantan los buenos desafíos.</p>",
+      "items": {
+        "Bulging Biceps": {
+          "name": "Bíceps marcados"
+        },
+        "Room": {
+          "name": "Habitación"
+        }
+      }
+    },
+    {
+      "id": "Karl-Heinz",
+      "name": "Karl-Heinz",
+      "tokenName": "Karl-Heinz",
+      "species": "Humano",
+      "notes": "<section class=\"secret\" id=\"secret-5MJTknqncOiVRaZ7\">\n        <p><strong>Estatus:</strong> Oro 1</p>\n<p>Hay turbulencias por todo el Imperio (ver la campaña <strong>El enemigo interior</strong> para más información), por lo que muchos de nobles locales, especialmente los Toppenheimer y los Pfiefraucher, buscan pelea.</p>\n    <p>@UUID[JournalEntry.SsYATFVcPahLsAHN.JournalEntryPage.jmhqqWatzKzHAwoV#trama-5-rivalidades-locales]{Trama 5 - Rivalidades locales}</p>\n</section>"
+    },
+    {
+      "id": "Performer",
+      "name": "Artista",
+      "tokenName": "Artista",
+      "species": "Humano",
+      "notes": "<section class=\"secret\" id=\"secret-jdvdXe9yC7OpKlhp\">\n    <p><strong>Estatus: </strong>Plata 1</p>\n    <p>El teatro Staatsoper emplea personal de todo tipo para atender y entretener a la élite culta de Nuln.</p>\n</section>",
+      "items": {
+        "Perform (Various)": {
+          "name": "Actuar (Varios)"
+        }
+      }
+    },
+    {
+      "id": "Operagoer",
+      "name": "Aficionado a la ópera",
+      "tokenName": "Aficionado a la ópera",
+      "species": "Humano",
+      "notes": "<section class=\"secret\" id=\"secret-dMdn5vFrRjH2Ga9s\">\n    <p><strong>Estatus: </strong>Plata 3</p>\n    <p>El teatro está lleno de aficionados a la ópera de todo tipo, la mayoría de los cuales son ricos burgueses de Nuln, como Albrecht Oldenhaller. Todos se codean mientras beben, cotillean, intentan llamar la atención de la @UUID[Actor.CcqiAghkzgp9u1In]{Condesa} y luego se dirigen a sus asientos.</p>\n    <p>Agrega cualquier Rasgo, Habilidad o Talento apropiado si crees que se requieren algunos Personajes únicos.</p>\n</section>"
+    },
+    {
+      "id": "Hannes Richter",
+      "name": "Hannes Richter",
+      "species": "Humano",
+      "description": "<section class=\"secret\" id=\"secret-vioPdwgsv59osL9h\">\n    <p><strong>Estatus: </strong>Oro 2</p>\n    <p>El magistrado más joven, Hannes Richter, tiene unos sesenta años y se tiñe el pelo en un intento fallido de parecer más jovial.</p>\n</section>",
+      "items": {
+        "Magistrate's Robes": {
+          "name": "Ropajes de magistrado"
+        },
+        "Book of Law": {
+          "name": "Libro de derecho",
+          "description": "<p>Las leyes varían considerablemente de una región a otra. Las ciudades que disponen de imprentas recopilan la legislación en volúmenes encuadernados, mientras que los jueces de pueblos más pequeños suelen basarse en documentos manuscritos de hace siglos. Los libros de leyes que utilizan abogados o jueces itinerantes suelen combinar páginas impresas y escritas a mano de distintas localidades del Imperio, recopiladas y encuadernadas bajo una misma cubierta.</p>"
+        },
+        "Wig": {
+          "name": "Peluca"
+        }
+      }
+    },
+    {
+      "id": "Toppenheimer Noble",
+      "name": "Noble Toppenheimer",
+      "tokenName": "Noble Toppenheimer",
+      "species": "Humano",
+      "notes": "<section class=\"secret\" id=\"secret-5MJTknqncOiVRaZ7\">\n        <p><strong>Estatus:</strong> Oro 1</p>\n<p>Hay turbulencias por todo el Imperio (ver la campaña <strong>El enemigo interior</strong> para más información), por lo que muchos de nobles locales, especialmente los Toppenheimer y los Pfiefraucher, buscan pelea.</p>\n    <p>@UUID[JournalEntry.SsYATFVcPahLsAHN.JournalEntryPage.jmhqqWatzKzHAwoV#trama-5-rivalidades-locales]{Trama 5 - Rivalidades locales}</p>\n</section>"
+    },
+    {
+      "id": "Bart Fehrwalder",
+      "name": "Bart Fehrwalder",
+      "species": "Humano",
+      "status": "Bronce 3",
+      "gmnotes": "<p>@UUID[Actor.8xawBmyhzCFVRCSY]{Gunni Mohrdorfer}, @UUID[Actor.meBFhv03FOIxxEuv]{Bart Fehrwalder}, y @UUID[Actor.xpRHuMinqcOTfLhL]{Hans-Frederick Born} se hacen pasar por morrianos que transportan un cuerpo para enterrarlo. Van vestidos con parafernalia que robaron de un templo de Morr. Hablan solo en tonos teatrales y monótonos para mantener su artimaña. Cuando no se hacen pasar por morrianos, los tres hombres tienen voces agudas con fuertes acentos de Nuln, y su tono se eleva al final de cada frase.</p>\n<p><strong>El Cuerpo</strong></p>\n<p>@UUID[Actor.YW7PY6OHt5krs2pj]{Josef Aufwiegler} es el ‘cuerpo’ que los ‘morrianos’ llevan en su ataúd. Aufwiegler es un agitador buscado por incitar disturbios en Nuln. Aunque pagó a los contrabandistas para que lo transportaran a un lugar seguro, no esperaba ser drogado. O ser trasladado en un ataúd. ¡O estar rodeado de morrianos con el rostro pintado como una calavera cuando se despertara! Cuando se despierta, confundido y aturdido por las drogas, Josef entra en un estado de pánico.</p>\n<p>@UUID[JournalEntry.g4vOyAOCjOl4EHBO.JournalEntryPage.vCbvOWyg16kon6e7#trama-5-polvo-eres...]{Trama 5 - Polvo eres…}</p>",
+      "items": {
+        "Bone Club": {
+          "name": "Garrote de hueso"
+        },
+        "Morrian Vestments": {
+          "name": "Vestimentas morrianas"
+        },
+        "Face Paint": {
+          "name": "Pintura facial"
+        }
+      }
+    },
+    {
+      "id": "Galina Hohengolfrid",
+      "name": "Galina Hohengolfrid",
+      "tokenName": "Galina Hohengolfrid"
+    },
+    {
+      "id": "Ernst Maler",
+      "name": "Ernst Maler",
+      "tokenName": "Ernst Maler"
+    },
+    {
+      "id": "Watch Sergeant",
+      "name": "Sargento de la Guardia",
+      "tokenName": "Sargento de la Guardia",
+      "species": "Humano",
+      "notes": "<section class=\"secret\" id=\"secret-4RudtmVM88kGTO5e\">\n    <p><strong>Estatus: </strong>Plata 1</p>\n    <p>La Guardia y escoltas de varios tipos está por todo el teatro y patrulla por fuera. La @UUID[Actor.CcqiAghkzgp9u1In]{Condesa} está presente, por lo que todos quieren impresionarla.</p>\n    <p>La mayoría de las patrullas de la Guardia están dirigidas por @UUID[Actor.nqoyWWVX4oZklgcT]{sargentos}, ya que sus superiores están decididos a que nada salga mal, ya que la @UUID[Actor.CcqiAghkzgp9u1In]{Condesa} está bajo su protección.</p>\n    <p>Sin embargo, la mayoría de estos representantes de la Guardia son altivos, pretenciosos y muy a menudo andan involucrados en actividades delictivas.</p>\n</section>"
+    },
+    {
+      "id": "Kappan's Racketeers",
+      "name": "Pandilleros de Kappan",
+      "tokenName": "Pandillero de Kappan",
+      "species": "Humano",
+      "notes": "<section class=\"secret\" id=\"secret-LclICWLy8VI5WDNX\">\n    <p><strong>Estatus: </strong>Bronce 3</p>\n    <p>Un grupo de pandilleros empleados por Alfonzo Kappan está planeando una explosiva fuga para su jefe. Lo que les falta de inteligencia, lo compensan con entusiasmo e ignorancia.</p>\n    <p>@UUID[JournalEntry.pDZu2xSFXlFumvtN.JournalEntryPage.V5nWWGLyW9hWgUbs#trama-2-huida]{Trama 2 - Huida}</p>\n</section>",
+      "items": {
+        "Cosh": {
+          "name": "Cachiporra"
+        }
+      }
+    },
+    {
+      "id": "Ol' Bess",
+      "name": "Viejo Bess",
+      "tokenName": "Viejo Bess",
+      "species": "Humano",
+      "status": "Plata 1"
+    },
+    {
+      "id": "Manfred von Saponatheim",
+      "name": "Manfred von Saponatheim",
+      "species": "Humano",
+      "status": "Bronce 0",
+      "gmnotes": "<p>Manfred es la vergüenza secreta de la Casa von Saponatheim. Encerrado lejos de miradas indiscretas durante casi tres décadas, el verdadero heredero del ducado de Saponatheim está a punto de vengarse. En gran parte incapaz de hablar, Manfred se comunica a través de tristes gruñidos y gemidos. Si alguna vez se cortara el pelo salvaje y recortara su enmarañada barba, la mayoría se sorprendería de lo mucho que se parece a @UUID[Actor.KfVnMx7Bn1DWErM6]{su padre}.</p>\n<p>@UUID[JournalEntry.7JmoqchNSsLrwZwz.JournalEntryPage.9F9hrdjcrIXmEJTm#trama-6-en-las-mejores-familias]{Trama 6 - En las mejores familias}</p>",
+      "items": [
+        {
+          "id": "Hatred",
+          "name": "Odio",
+          "description": "<p>Te ves consumido por el Odio hacia el Objetivo, que normalmente\n suele ser un grupo de personas o de criaturas, como por ejemplo, \n‘hochlandeses’, ‘pulpos de las ciénagas’ o ‘esclavistas’. Jamás \ninteraccionarás socialmente con algo o alguien a quien odies de esta \nforma. Al encontrarte con el objeto de tu Odio, deberás intentar un \nChequeo de Psicología. Si fallas, te ves sujeto al Odio.</p>\n<p>Al\n final de cada asalto subsiguiente, puedes intentar un nuevo Chequeo de \nPsicología para acabar con el Odio. Si no lo consigues, los efectos del \nOdio acaban por sí solos de forma natural cuando todos los miembros del \ngrupo especificado han muerto o se han ido, o pasas al Estado \n@Condition[Inconsciente].</p>\n<p>Mientras te ves sujeto \nal Odio, debes intentar destruir de inmediato al grupo odiado por el \nmétodo más rápido y letal posible. Obtienes un bonificador de +1 NE a \ntodos los Chequeos de combate contra el grupo especificado, y eres \ninmune al Miedo y al Intimidar (pero no al Terror) causados por tu \nodiado enemigo.</p>"
+        },
+        {
+          "id": "Frenzy",
+          "name": "Furia",
+          "description": "<p>Mediante un Chequeo de Voluntad, puedes inducirte a ti mismo un\n estado alterado, sugestionándote, aullando, mordiendo tu escudo o algo \nsimilar. Si lo consigues, te ves sujeto a la Furia.</p>\n<p>Mientras\n estás sujeto a la Furia , eres inmune a todas las demás Psicologías y \nno huyes ni te retiras por razón alguna; por el contrario, debes moverte\n con toda celeridad hacia el enemigo más próximo al que puedes ver, para\n atacarle. Por lo general, la única Acción que puedes llevar a cabo es \nun Chequeo de Habilidad de armas o un Chequeo de Atletismo para llegar \nmás rápidamente hasta un enemigo. Además, puedes llevar a cabo un \nChequeo de Cuerpo a cuerpo como Acción libre cada Asalto porque estás \nponiendo en tus ataques todo lo que tienes. Por último, obtienes un +1 a\n tu Bonificador por Fuerza, tal es tu ferocidad. Permaneces en Furia \nhasta que todos los enemigos en tu línea visual han sido pacificados, o \nsufres 1 Estado de @Condition[Aturdido] o quedas \n@Condition[Inconsciente]. Una vez se acaba tu Furia , sufres de \ninmediato 1 Estado de @Condition[Fatigado].</p>\n<blockquote class=\"foundry-note\">\n\n    <p><span style=\"font-style: normal;\">El efecto está \ndesactivado por defecto, activarlo en el apartado 'efectos' al entrar en\n Furia.</span></p>\n</blockquote>"
+        }
+      ]
+    },
+    {
+      "id": "Uncle Mho",
+      "name": "Tío Mho",
+      "tokenName": "Tío Mho",
+      "species": "Humano",
+      "status": "Bronce 3",
+      "gmnotes": "<p>@UUID[Actor.1gLZGKozh6nrBjGr]{Thomas} es un hombre poderoso bastante acostumbrado al mando, ya sea con sus barcos, sus zonas de contrabando o con su @UUID[Actor.RVDzvuNLOyMHpboL]{futura esposa}. Al enterarse de las infidelidades de su prometida con el barón, llamó a @UUID[Actor.qKIlKSoDoQYCTMGE]{Tío Mho}, @UUID[Actor.0SY3YBbsrNa6bvZ6]{Loco Larz} y a @UUID[Actor.Wnn6QYqqbvG5gotp]{Gran ‘Rizos’} para que lo ayudaran a enseñarle unas valiosas lecciones al amante de su esposa. Todos ellos hablan con acentos del Reikland de clase baja.</p>\n<p>@UUID[JournalEntry.g4vOyAOCjOl4EHBO.JournalEntryPage.vCbvOWyg16kon6e7#trama-4-haciendo-una-escena]{Trama 4 - Haciendo una escena}</p>"
+    },
+    {
+      "id": "Watchman",
+      "name": "Guardia",
+      "tokenName": "Guardia",
+      "species": "Humano",
+      "notes": "<section class=\"secret\" id=\"secret-gEKYq5YejuHKGfxI\">\n    <p><strong>Status: </strong>Plata 1</p>\n    <p>Se acerca el Fin de los Tiempos, y estos guardias lo aceptan, sabiendo que todo lo demás es una locura. Sangre para el Dios de la Sangre. Cráneos para el Trono de Khorne.</p>\n    <p>@UUID[JournalEntry.pDZu2xSFXlFumvtN.JournalEntryPage.V5nWWGLyW9hWgUbs#trama-6-dia-de-sangre]{Trama 6 - Día de sangre}</p>\n</section>",
+      "items": {
+        "Frenzy": {
+          "name": "Furia",
+          "description": "<p>Con un Chequeo de Voluntad, puedes entrar en estado de frenesí animándote a ti mismo mediante aullidos, mordiendo tu escudo o actos similares. Si tienes éxito, quedas sometido al estado de Frenesí.</p>\n<p>Mientras estás en Frenesí:</p>\n<ul>\n    <li>\n        <p>Eres inmune a cualquier otro efecto de psicología y no huirás ni te retirarás bajo ninguna circunstancia.</p>\n    </li>\n    <li>\n        <p>De hecho, debes moverte siempre a tu velocidad completa hacia el enemigo más cercano que puedas ver para atacarlo.</p>\n    </li>\n    <li>\n        <p>Por lo general, la única Acción que puedes realizar es un Chequeo de Habilidad con Armas o un Chequeo de Atletismo para alcanzar antes a un enemigo.</p>\n    </li>\n    <li>\n        <p>Además, puedes realizar un Chequeo de Combate cuerpo a cuerpo como Acción Gratuita cada asalto, ya que estás lanzando todo lo que tienes en tus ataques.</p>\n    </li>\n    <li>\n        <p>Por último, obtienes un bonificador de +1 a tu Bonificador de Fuerza, debido a tu ferocidad.</p>\n    </li>\n</ul>\n<p>Permaneces en Frenesí hasta que todos los enemigos en tu línea de visión estén neutralizados o recibas el Estado @Condition[Aturdido] o @Condition[Inconsciente]. Cuando el Frenesí termina, adquieres inmediatamente la condición @Condition[Fatigado].</p>"
+        }
+      }
+    },
+    {
+      "id": "Nastassia von Saponatheim",
+      "name": "Nastassia von Saponatheim",
+      "species": "Humano",
+      "status": "Oro 1",
+      "gmnotes": "<p>Nastassia es todo lo que su @UUID[Actor.KfVnMx7Bn1DWErM6]{padre} no es: bajita, dulce y muy dispuesta a huir de sus deberes por amor. @UUID[Actor.Nnas6TyUYFPQJgDa]{Joachim Bitterfeld} ha cautivado su corazón por completo y está decidida a casarse con este valiente. Aunque los aspectos prácticos de ocultar su espantoso acento de clase alta, y de vivir sin sirvientes aún no se le han pasado por la cabeza. Joachim es una persona práctica; de hecho, él se ha ocupado de la mayor parte de la planificación de la fuga de Nastassia.</p>\n<p>@UUID[JournalEntry.7JmoqchNSsLrwZwz.JournalEntryPage.9F9hrdjcrIXmEJTm#trama-2-amantes-desafortunados]{Trama 2 - Amantes desafortunados}</p>",
+      "items": [
+        {
+          "id": "Etiquette (Nobles)",
+          "name": "Etiqueta (Nobles)",
+          "description": "<p>Podrás mezclarte socialmente con el grupo elegido mientras vayas vestido de la forma adecuada y actúes con propiedad. Los grupos sociales de ejemplo para este Talento son: delincuentes, sectarios, agremiados, nobles, eruditos, sirvientes y soldados. Si no tienes el Talento, quienes sí lo tienen notarán tu incomodidad en un entorno poco familiar. Esto afecta principalmente a la interpretación del personaje, pero si el DJ lo decide puede suponer una bonificación a los Chequeos de Empatía.</p>"
+        }
+      ]
+    },
+    {
+      "id": "Cannon and Mortar Students",
+      "name": "Alumnos de Cañón y Mortero",
+      "tokenName": "Alumno de Cañón y Mortero",
+      "species": "Humano",
+      "notes": "<section class=\"secret\" id=\"secret-kYjLBt5BHBmjhLC6\">\n    <p><strong>Estatus: </strong>Bronce 4</p>\n    <p>@UUID[JournalEntry.SsYATFVcPahLsAHN.JournalEntryPage.jmhqqWatzKzHAwoV#trama-2-una-broma-estudiantil]{Trama 2 - Una broma estudiantil}</p>\n</section>",
+      "items": {
+        "Improvised Explosive": {
+          "name": "Explosivo casero"
+        },
+        "Crude Pamphlet": {
+          "name": "Panfletos toscos"
+        },
+        "Half-empty Flask": {
+          "name": "Frascos medio vacíos"
+        },
+        "Stolen Small Fireworks": {
+          "name": "Fuegos artificiales pequeños robados"
+        }
+      }
+    },
+    {
+      "id": "Wilhelm König",
+      "name": "Wilhelm König",
+      "species": "Humano",
+      "status": "Oro 1",
+      "gmnotes": "<p>Si @UUID[Actor.eOlJad1Pky9vNevM]{Dominique Herveaux} sobrevivió a Noche agitada en Las Tres Plumas, está de regreso, habiendo escapado de la custodia para continuar su trabajo. Para asegurarse de no ser reconocida, se ha cortado el pelo, lo ha decolorado y se ha puesto una gruesa capucha. También adopta un acento de Talabecland muy cerrado. Es muy buena en su trabajo, lo que significa que cualquier Chequeo para reconocerla es al menos <strong>Muy difícil (−30)</strong>. Si Dominique está muerta, @UUID[Actor.hoYxD4qqwxPJai2L]{von Dammenblatz} contrata a Wilhelm König para reemplazarla. Usa las estadísticas de @UUID[Actor.eOlJad1Pky9vNevM]{Dominique} para representar a Wilhelm, pero reduce todos los Atributos y Habilidades en −10 debido a su relativa inexperiencia.</p>",
+      "items": {
+        "Animal Training (Snake)": {
+          "name": "Adistrar animales (Serpiente)"
+        },
+        "Entertain (Act)": {
+          "name": "Animar (Actuar)"
+        },
+        "Entertain (Taunt)": {
+          "name": "Animar (Burla)"
+        },
+        "Etiquette (Servants)": {
+          "name": "Etiqueta (Sirvientes)",
+          "description": "<p>Podrás mezclarte socialmente con el grupo elegido mientras vayas vestido de la forma adecuada y actúes con propiedad. Los grupos sociales de ejemplo para este Talento son: delincuentes, sectarios, agremiados, nobles, eruditos, sirvientes y soldados. Si no tienes el Talento, quienes sí lo tienen notarán tu incomodidad en un entorno poco familiar. Esto afecta principalmente a la interpretación del personaje, pero si el DJ lo decide puede suponer una bonificación a los Chequeos de Empatía.</p>"
+        },
+        "Poisoned Dagger": {
+          "name": "Daga envenenada"
+        }
+      }
+    },
+    {
+      "id": "Stagehand",
+      "name": "Tramoyistas",
+      "tokenName": "Tramoyista",
+      "species": "Humano",
+      "notes": "<section class=\"secret\" id=\"secret-jdvdXe9yC7OpKlhp\">\n    <p><strong>Estatus: </strong>Plata 1</p>\n    <p>El teatro Staatsoper emplea personal de todo tipo para atender y entretener a la élite culta de Nuln.</p>\n</section>"
+    },
+    {
+      "id": "Brecht Kavenner",
+      "name": "Brecht Kavenner",
+      "species": "Humano",
+      "status": "Oro 3",
+      "gmnotes": "<p>Kavenner, de voz nasal, es el abogado personal de la @UUID[Actor.CcqiAghkzgp9u1In]{Condesa}. Conocido como un hombre severo y trabajador que se dedica por completo a su esposa, hijos y al @UUID[JournalEntry.NcH9OhleJFfaUdon.JournalEntryPage.9bWE0Ayt5XGQf50r]{Culto de Verena}, utiliza esta buena reputación para disfrazar su doble vida como uno de los sectarios de mayor éxito y depravación de la <em>Ordo Ultima</em>. Encargado hace tres años de corromper a la Condesa al servicio del Príncipe del Placer, la ha encontrado inexplicablemente intratable. Esto lo confunde y molesta en igual medida, lo que invariablemente acaba ventilando sobre sus subordinados.</p>",
+      "items": {
+        "Magic Resistance": {
+          "name": "Resistencia a la magia",
+          "description": "<p>La Magia tiene un efecto reducido sobre la criatura. Los NE de cualquier hechizo que la afecte se reducen en la cifra entre paréntesis. Así pues, Resistencia a la Magia 2 reduciría en 2 los NE.</p>"
+        },
+        "Hatred (Khorne Worshippers)": {
+          "name": "Odio (Adoradores de Khorne)",
+          "description": "<p>Te ves consumido por el Odio hacia el Objetivo, que normalmente suele ser un grupo de personas o de criaturas, como por ejemplo, ‘hochlandeses’, ‘pulpos de las ciénagas’ o ‘esclavistas’. Jamás interaccionarás socialmente con algo o alguien a quien odies de esta forma. Al encontrarte con el objeto de tu Odio, deberás intentar un Chequeo de Psicología. Si fallas, te ves sujeto al Odio.</p><p>Al final de cada asalto subsiguiente, puedes intentar un nuevo Chequeo de Psicología para acabar con el Odio. Si no lo consigues, los efectos del Odio acaban por sí solos de forma natural cuando todos los miembros del grupo especificado han muerto o se han ido, o pasas al Estado Inconsciente.\n</p><p>Mientras te ves sujeto al Odio, debes intentar destruir de inmediato al grupo odiado por el método más rápido y letal posible. Obtienes un bonificador de +1 NE a todos los Chequeos de combate contra el grupo especificado, y eres inmune al Miedo y al Intimidar (pero no al Terror) causados por tu odiado enemigo.</p>"
+        },
+        "Mutation (Cosmetic: Extra mouth on stomach)": {
+          "name": "Mutación (Una boca adicional en la barriga)",
+          "description": "La criatura ha sido 'bendecida' con una Mutación. Tira en la tabla de @Table[mutatephys]{Corrupción física}"
+        }
+      }
+    },
+    {
+      "id": "Josef von Angendorf",
+      "name": "Josef von Angendorf",
+      "tokenName": "The Wraith",
+      "species": "Humano",
+      "status": "Oro 2",
+      "gmnotes": "<p>Como graf Josef, El Fantasma desempeña el papel de un joven noble encantador pero tonto, sin intereses fuera de la última moda y los cotilleos. Como el Fantasma, el graf Josef es ingenioso, encantador y siempre tienen a punto una broma en caso de que surja la oportunidad.</p>\n<p>@UUID[JournalEntry.7JmoqchNSsLrwZwz.JournalEntryPage.9F9hrdjcrIXmEJTm#trama-7-el-tigre-rosa]{Trama 7 - El Tigre rosa}</p>",
+      "items": [
+        {
+          "id": "Entertain (Acting)",
+          "name": "Animar (Actuar)"
+        },
+        {
+          "id": "Etiquette (Criminals)",
+          "name": "Etiqueta (Criminales)",
+          "description": "<p>Podrás mezclarte socialmente con el grupo elegido mientras vayas vestido de la forma adecuada y actúes con propiedad. Los grupos sociales de ejemplo para este Talento son: delincuentes, sectarios, agremiados, nobles, eruditos, sirvientes y soldados. Si no tienes el Talento, quienes sí lo tienen notarán tu incomodidad en un entorno poco familiar. Esto afecta principalmente a la interpretación del personaje, pero si el DJ lo decide puede suponer una bonificación a los Chequeos de Empatía.</p>"
+        }
+      ]
+    },
+    {
+      "id": "Glimbrin Oddsocks",
+      "name": "Glimbrin Calcetinesdesemparejados",
+      "tokenName": "Glimbrin Calcetinesdesemparejados",
+      "species": "Gnomo",
+      "status": "Bronce 5",
+      "gmnotes": "<p>Glimbrin, un @UUID[JournalEntry.Hd6J761opHoj2QRG]{gnomo} del clan Trethaway, está recorriendo el Imperio, buscando apropiarse de cosas útiles para llevar a casa, a las madrigueras de Glimdwarrow. Hasta ahora, no ha encontrado mucho de interés, pero se ha divertido mucho robando cualquier cosa que no está fijada al camino, y anda siempre en busca de su próximo gran golpe.</p>\n<p>Glimdrin aparece en cuatro de las aventuras de la campaña <strong>Noches agitadas y días difíciles</strong>, así que asegúrate de dar a los Personajes la oportunidad de encontrarse con él. Pronto se convertirá en una cara familiar, por lo que se recomienda que te familiarices con su perfil de personaje. Nota: su Talento @UUID[Compendium.wfrp4e-rnhd.items.BTl4iFl6jEaZedrq]{Suffused with Ulgu}, así como todas las demás reglas para los gnomos, se detallan en @UUID[JournalEntry.Hd6J761opHoj2QRG]{Gnomos}.</p>\n<p>@UUID[JournalEntry.g4vOyAOCjOl4EHBO.JournalEntryPage.vCbvOWyg16kon6e7#trama-7-vaciando-algun-que-otro-bolsillo]{Trama 7 - Vaciando algún que otro bolsillo}</p>",
+      "items": {
+        "Language (Ghassally)": {
+          "name": "Hablar idioma (Ghassally)"
+        },
+        "Lore (Reikland)": {
+          "name": "Sabiduria académica (Reikland)"
+        },
+        "Hatred": {
+          "name": "Odio",
+          "description": "<p>Estás consumido por el Odio hacia el Objetivo, que normalmente es un grupo de personas o criaturas, como por ejemplo «hochlandeses», «pulpos de los lodazales» o «esclavistas». Nunca interactuarás socialmente con alguien o algo que odies de este modo. Al encontrarte con el objeto de tu Odio, debes realizar un Chequeo de Psicología. Si fallas, quedas sometido al Odio. Al final de cada asalto posterior, puedes intentar otro Chequeo de Psicología para poner fin al Odio. Lo consigas o no, los efectos del Odio terminan de forma natural cuando todos los miembros del grupo especificado dentro de tu línea de visión están muertos o han desaparecido, o si adquieres el Estado Inconsciente. Mientras estés sometido al Odio, debes intentar destruir al grupo odiado de la forma más rápida y letal posible. Obtienes un bonificador de +1 NE en todo de combate contra el grupo especificado, y eres inmune al Miedo e Intimidar (pero no al Terror) causados por tu enemigo odiado.</p>"
+        },
+        "Ready Smile": {
+          "name": "Sonrisa rápida"
+        },
+        "Stolen Goods": {
+          "name": "Objetos robados"
+        }
+      }
+    },
+    {
+      "id": "Boatman",
+      "name": "Barquero",
+      "tokenName": "Barquero",
+      "species": "Humano",
+      "status": "Plata 2",
+      "gmnotes": "<p>Hay una serie de cocheros y barqueros, todos humanos, alojados en <em>Las Tres Plumas</em>. La mayoría bebe hasta prácticamente la inconsciencia, antes de ir a rastras a la Sala Común.</p>"
+    },
+    {
+      "id": "Erwin Blucher",
+      "name": "Erwin Blucher",
+      "tokenName": "Erwin Blucher"
+    },
+    {
+      "id": "Young Noble",
+      "name": "Joven noble",
+      "tokenName": "Joven noble",
+      "species": "Humano",
+      "notes": "<section class=\"secret\" id=\"secret-5MJTknqncOiVRaZ7\">\n        <p><strong>Estatus:</strong> Oro 1</p>\n<p>Hay turbulencias por todo el Imperio (ver la campaña <strong>El enemigo interior</strong> para más información), por lo que muchos de nobles locales, especialmente los Toppenheimer y los Pfiefraucher, buscan pelea.</p>\n    <p>@UUID[JournalEntry.SsYATFVcPahLsAHN.JournalEntryPage.jmhqqWatzKzHAwoV#trama-5-rivalidades-locales]{Trama 5 - Rivalidades locales}</p>\n</section>"
+    },
+    {
+      "id": "Hans-Frederick Born",
+      "name": "Hans-Frederick Born",
+      "species": "Humano",
+      "status": "Bronce 3",
+      "gmnotes": "<p>@UUID[Actor.8xawBmyhzCFVRCSY]{Gunni Mohrdorfer}, @UUID[Actor.meBFhv03FOIxxEuv]{Bart Fehrwalder}, y @UUID[Actor.xpRHuMinqcOTfLhL]{Hans-Frederick Born} se hacen pasar por morrianos que transportan un cuerpo para enterrarlo. Van vestidos con parafernalia que robaron de un templo de Morr. Hablan solo en tonos teatrales y monótonos para mantener su artimaña. Cuando no se hacen pasar por morrianos, los tres hombres tienen voces agudas con fuertes acentos de Nuln, y su tono se eleva al final de cada frase.</p>\n<p><strong>El Cuerpo</strong></p>\n<p>@UUID[Actor.YW7PY6OHt5krs2pj]{Josef Aufwiegler} es el ‘cuerpo’ que los ‘morrianos’ llevan en su ataúd. Aufwiegler es un agitador buscado por incitar disturbios en Nuln. Aunque pagó a los contrabandistas para que lo transportaran a un lugar seguro, no esperaba ser drogado. O ser trasladado en un ataúd. ¡O estar rodeado de morrianos con el rostro pintado como una calavera cuando se despertara! Cuando se despierta, confundido y aturdido por las drogas, Josef entra en un estado de pánico.</p>\n<p>@UUID[JournalEntry.g4vOyAOCjOl4EHBO.JournalEntryPage.vCbvOWyg16kon6e7#trama-5-polvo-eres...]{Trama 5 - Polvo eres…}</p>",
+      "items": {
+        "Bone Club": {
+          "name": "Garrote de hueso"
+        },
+        "Morrian Vestments": {
+          "name": "Vestimentas morrianas"
+        },
+        "Face Paint": {
+          "name": "Pintura facial"
+        }
+      }
+    },
+    {
+      "id": "Jan",
+      "name": "Jan",
+      "species": "Humano",
+      "status": "Bronce 3",
+      "gmnotes": "<p>@UUID[Actor.hVO7ScsPtmyul85F]{Gert} y @UUID[Actor.ykdWommB6UYZR0EE]{Jan} son dos de los matones más capaces y presentables de Albrecht el Pez. Pero no importa cuánto intenten encajar, no son capaces de hacerlo. Su comportamiento, sus modales y su cantarín acento de Marienburgo los hacen llamativos. Son inconfundibles para cualquiera que preste atención.</p>\n<p>@UUID[JournalEntry.7JmoqchNSsLrwZwz.JournalEntryPage.9F9hrdjcrIXmEJTm#trama-4-cosas-de-los-negocios]{Trama 4 - Cosas de los negocios}</p>"
+    },
+    {
+      "id": "Erwin Pakker",
+      "name": "Erwin Pakker",
+      "species": "Humano",
+      "status": "Oro 1",
+      "gmnotes": "<p>El profesor Pakker es viejo, barbudo y prácticamente sordo, aunque hace ver que oye perfectamente. Se enfurece y resopla mientras sermonea a quienes le rodean, rara vez se limita a hablar, y con frecuencia mira al vacío, aparentemente ajeno al mundo. En comparación, sus @UUID[Actor.sJv11oVxAILGAgJe]{alumnos} son bulliciosos, obstinados y con frecuencia van borrachos, una situación que el profesor no hace absolutamente nada para resolver.</p>"
+    },
+    {
+      "id": "Borgun Foambeard",
+      "name": "Borgun Foambeard",
+      "tokenName": "Borgun Foambeard"
+    }
+  ]
+}

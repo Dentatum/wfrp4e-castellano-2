@@ -1,0 +1,47 @@
+{
+  "id": "wfrp4e-castellano-2",
+  "title": "WFRP4e - Español 2",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "Dentatum",
+      "discord": ".dentatum",
+      "flags": {}
+    }
+  ],
+  "scripts": [
+    "modules/initialization.js"
+  ],
+  "esmodules": [
+    "register.js"
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "wfrp4e",
+        "type": "system",
+		"manifest": "https://github.com/moo-man/WFRP4e-FoundryVTT/releases/latest/download/system.json",
+        "compatibility": {}
+      }
+    ],
+    "requires": [
+      {
+        "id": "babele",
+        "type": "module",
+		"manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json",
+        "compatibility": {}
+      },
+      {
+        "id": "wfrp4e-castellano",
+        "type": "module",
+		"manifest": "https://github.com/Txus5012/WFRP4e-Castellano/releases/latest/download/module.json",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "Traducción para los suplementos de WFRP4, basada en la de Devir. Requiere Babele y la traducción del juego básico en español, hecha por Txus."
+}
