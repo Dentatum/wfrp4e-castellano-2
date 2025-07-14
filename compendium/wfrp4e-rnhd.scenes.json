@@ -1,0 +1,33 @@
+{
+  "label": "Escenas (Noches agitadas y días difíciles)",
+  "folders": {},
+  "mapping": {
+		"image": "background.src"
+  },
+  "entries": {
+    "The Courthouse": {
+      "name": "Los juzgados",
+	  "image": "modules/wfrp4e-castellano-2/images/rnhd/courthouse-unlabeled.webp"
+    },
+    "The Arena": {
+      "name": "La Arena",
+	  "image": "modules/wfrp4e-castellano-2/images/rnhd/arena-unlabeled.webp"
+    },
+    "Castle Grauenberg": {
+      "name": "Castillo Grauenberg",
+	  "image": "modules/wfrp4e-castellano-2/images/rnhd/castle-grauenberg-unlabeled.webp"
+    },
+    "Staatsoper Theatre": {
+      "name": "Teatro Staatsoper",
+	  "image": "modules/wfrp4e-castellano-2/images/rnhd/theatre-combined.webp"
+    },
+    "The Three Feathers": {
+      "name": "Las Tres Plumas",
+	  "image": "modules/wfrp4e-castellano-2/images/rnhd/three-feathers-unlabeled.webp"
+    },
+    "Niederstadt Haus": {
+      "name": "Casa Niederstadt",
+	  "image": "modules/wfrp4e-castellano-2/images/rnhd/niederstadt-haus-unlabeled.webp"
+    }
+  }
+}
