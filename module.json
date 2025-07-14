@@ -14,7 +14,8 @@
     }
   ],
   "scripts": [
-    "modules/initialization.js"
+    "modules/initialization.js",
+	"modules/config-spanish.js"
   ],
   "esmodules": [
     "register.js"
