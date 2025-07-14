@@ -44,5 +44,7 @@
       }
     ]
   },
-  "description": "Traducción para los suplementos de WFRP4, basada en la de Devir. Requiere Babele y la traducción del juego básico en español, hecha por Txus."
+  "description": "Traducción para los suplementos de WFRP4, basada en la de Devir. Requiere Babele y la traducción del juego básico en español, hecha por Txus.",
+  "manifest": "https://raw.githubusercontent.com/Dentatum/wfrp4e-castellano-2/refs/heads/master/module.json",
+  "download": "https://github.com/Dentatum/wfrp4e-castellano-2/archive/refs/heads/master.zip"
 }
