@@ -454,36 +454,36 @@
           "text": "<p>Esta sección añade una nueva enfermedad y algunos síntomas adicionales para ampliar tus creaciones al respecto.</p>\n<h3>La letanía de la pestilencia</h3>\n<p>@UUID[Compendium.wfrp4e-eis.items.dDILARjlekBnsR0j]{Fiebre cerebral púrpura}</p>\n<h3>Síntomas</h3>\n<p>@Symptom[delirium]{Delirio}</p>\n<p>@Symptom[swelling]{Hinchazón}</p>"
         },
         "Handout 1: Wanted! Bold Adventurers!": {
-          "name": "Handout 1: Wanted! Bold Adventurers!",
-          "src": "modules/wfrp4e-eis/assets/handouts/handout-1.webp"
+          "name": "Ayuda de juego 1: ¡Se buscan aventureros audaces!",
+          "src": "modules/wfrp4e-castellano-2/images/eis/handouts/eis-handout-01.webp"
         },
         "Handout 2: Rolf Hurtsis": {
-          "name": "Handout 2: Rolf Hurtsis",
-          "src": "modules/wfrp4e-eis/assets/handouts/handout-2.webp"
+          "name": "Ayuda de juego 2: Rolf Hurtsis",
+          "src": "modules/wfrp4e-castellano-2/images/eis/handouts/eis-handout-02.webp"
         },
         "Handout 3: The Inheritance": {
-          "name": "Handout 3: The Inheritance",
-          "src": "modules/wfrp4e-eis/assets/handouts/handout-3.webp"
+          "name": "Ayuda de juego 3: La Herencia",
+          "src": "modules/wfrp4e-castellano-2/images/eis/handouts/eis-handout-03.webp"
         },
         "Handout 4: The Affidavit": {
-          "name": "Handout 4: The Affidavit",
-          "src": "modules/wfrp4e-eis/assets/handouts/handout-4.webp"
+          "name": "Ayuda de juego 4: La Declaración Jurada",
+          "src": "modules/wfrp4e-castellano-2/images/eis/handouts/eis-handout-04.webp"
         },
         "Handout 5: Josef Quartjin": {
-          "name": "Handout 5: Josef Quartjin",
-          "src": "modules/wfrp4e-eis/assets/handouts/handout-5.webp"
+          "name": "Ayuda de juego 5: Josef Quartjin",
+          "src": "modules/wfrp4e-castellano-2/images/eis/handouts/eis-handout-05.webp"
         },
         "Handout 6: The Schaffenfest": {
-          "name": "Handout 6: The Schaffenfest",
-          "src": "modules/wfrp4e-eis/assets/handouts/handout-6.webp"
+          "name": "Ayuda de juego 6: La Schaffenfest",
+          "src": "modules/wfrp4e-castellano-2/images/eis/handouts/eis-handout-06.webp"
         },
         "Handout 7: The Letter": {
-          "name": "Handout 7: The Letter",
-          "src": "modules/wfrp4e-eis/assets/handouts/handout-7.webp"
+          "name": "Ayuda de juego 7: La carta",
+          "src": "modules/wfrp4e-castellano-2/images/eis/handouts/eis-handout-07.webp"
         },
         "Handout 8: Hour After Sunset": {
           "name": "Handout 8: Hour After Sunset",
-          "src": "modules/wfrp4e-eis/assets/handouts/handout-8.webp"
+          "src": "modules/wfrp4e-castellano-2/images/eis/handouts/eis-handout-08.webp"
         },
         "Handout 9: 'All Goes Well'": {
           "name": "Handout 9: 'All Goes Well'",
