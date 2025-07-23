@@ -8,8 +8,8 @@ Hooks.on("renderCompendiumDirectory", async () => {
 		await game.folders.getName("Lord of Ubersreik").update({"name":  "El señor de Ubersreik"  })
 	}
 	
-	if (game.folders.getName("Enemy Within")) {
-		await game.folders.getName("Enemy Within").update({"name":  "El enemigo interior"  })
+	if (game.folders.getName("The Enemy Within")) {
+		await game.folders.getName("The Enemy Within").update({"name":  "El enemigo interior"  })
 	}
 	
 	if (game.folders.getName("Enemy in Shadows")) {

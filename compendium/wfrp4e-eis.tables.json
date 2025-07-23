@@ -1,0 +1,304 @@
+{
+  "label": "Tablas (El enemigo en las sombras)",
+  "folders": {
+    "Weather": "Tiempo",
+    "Mental": "Mentales",
+    "Daemonic Mien": "Aspectos demoníacos",
+    "Encounters": "Encuentros",
+    "Beast Head": "Cabeza de bestia",
+    "Physical": "Físicas",
+    "Mishaps": "Percances",
+    "Adventure": "Aventura",
+    "Enemy In Shadows": "El enemigo en las sombras"
+  },
+  "entries": {
+    "Demonic Mien - Undivided": {
+      "name": "Aspecto demoníaco - Caos Absoluto",
+      "results": {
+        "1-2": "@UUID[Compendium.wfrp4e-core.items.v3uzEthcq0JRar0J]{Demoníaco (8)}",
+        "3-3": "@UUID[Compendium.wfrp4e-core.items.9NROryHer1uXAKwY]{Élite}",
+        "4-4": "@UUID[Compendium.wfrp4e-core.items.9MjH4xyVrd3Inzak]{Rápido}",
+        "5-5": "@UUID[Compendium.wfrp4e-core.items.pTorrE0l3VybAbtn]{Miedo (3)}",
+        "6-6": "@UUID[Compendium.wfrp4e-core.items.EO05HX7jql0g605A]{Vuelo (8)}",
+        "8-8": "@UUID[Compendium.wfrp4e-core.items.BqPZn6q3VHn9HUrW]{Cuernos +10}",
+        "9-9": "@UUID[Compendium.wfrp4e-core.items.mDgEMOoJpi8DkRYb]{Mágico}",
+        "10-10": "@UUID[Compendium.wfrp4e-core.items.UnJ25lL8aUzem5JO]{Coletazo (+10)}"
+      }
+    },
+    "Demonic Mien - Nurgle": {
+      "name": "Aspecto demoníaco - Nurgle",
+      "results": {
+        "1-1": "@UUID[Compendium.wfrp4e-core.items.a8MC97PLzl10WocT]{Grande}",
+        "2-2": "@UUID[Compendium.wfrp4e-core.items.uqGxFOEqeurwkAO3]{Aliento +7 (Corrosivo y Veneno)}",
+        "3-3": "@UUID[Compendium.wfrp4e-core.items.v3uzEthcq0JRar0J]{Demoníaco7}",
+        "4-4": "@UUID[Compendium.wfrp4e-core.items.PaW8i6JOxWyzAZCz]{Enfermedad (Podredumbre de Nurgle)}",
+        "5-5": "@UUID[Compendium.wfrp4e-core.items.MVI0lXcg6vvtooAF]{Molesto (Hedor)}",
+        "6-6": "@UUID[Compendium.wfrp4e-core.items.pTorrE0l3VybAbtn]{Miedo (3)}",
+        "7-7": "@UUID[Compendium.wfrp4e-core.items.TBcdTlYSRH8Rd1x0]{Infestado}",
+        "8-8": "@Table[expandedmutatephys]{Mutación}",
+        "9-9": "@UUID[Compendium.wfrp4e-core.items.SfUUdOGjdYpr3KSR]{Regenerar}",
+        "10-10": "@UUID[Compendium.wfrp4e-core.items.JzeN9MZ0xUDvpE2l]{Vómito}"
+      }
+    },
+    "Demonic Mien - Slaanesh": {
+      "name": "Aspecto demoníaco - Slaanesh",
+      "results": {
+        "1-1": "@UUID[Compendium.wfrp4e-core.items.v3uzEthcq0JRar0J]{Demoníaco (6)}",
+        "2-2": "@UUID[Compendium.wfrp4e-core.items.MVI0lXcg6vvtooAF]{Molesto}",
+        "3-3": "@UUID[Compendium.wfrp4e-core.items.pTorrE0l3VybAbtn]{Miedo (3)}",
+        "4-4": "@UUID[Compendium.wfrp4e-core.items.yRhhOlt18COq4e1q]{Furia}",
+        "5-5": "@UUID[Compendium.wfrp4e-core.items.IAWyzDfC286a9MPz]{Inmunidad a la Psicología}",
+        "6-6": "@Table[expandedmutatephys]{Mutación}",
+        "7-7": "@UUID[Compendium.wfrp4e-core.items.wMwSRDmgiF2IdCJr]{Sin dolor}",
+        "8-8": "@UUID[Compendium.wfrp4e-core.items.0eEJ280MIC0IbEop]{Mirada petrificante}",
+        "9-9": "@UUID[Compendium.wfrp4e-core.items.xg6z63j6BH5AaqLL]{Ataque de lengua (6 yards) +6}",
+        "10-10": "@UUID[Compendium.wfrp4e-core.items.gFkRm9wS65qe18Xv]{Veneno}"
+      }
+    },
+    "Demonic Mien - Tzeentch": {
+      "name": "Aspecto demoníaco - Tzeentch",
+      "results": {
+        "1-1": "@UUID[Compendium.wfrp4e-core.items.uqGxFOEqeurwkAO3]{Aliento +9 (Fuego)}",
+        "2-2": "@UUID[Compendium.wfrp4e-core.items.v3uzEthcq0JRar0J]{Demoníaco (9)}",
+        "3-3": "@UUID[Compendium.wfrp4e-core.items.tNWrJUOArwfWXsPw]{Etéreo}",
+        "4-4": "@UUID[Compendium.wfrp4e-core.items.pTorrE0l3VybAbtn]{Miedo (3)}",
+        "5-5": "@UUID[Compendium.wfrp4e-core.items.EO05HX7jql0g605A]{Vuelo (9)}",
+        "6-6": "@UUID[Compendium.wfrp4e-core.items.mDgEMOoJpi8DkRYb]{Mágico}",
+        "7-7": "@UUID[Compendium.wfrp4e-core.items.yrkI7ATjqLPDTFmZ]{Resistencia a la magia}",
+        "8-9": "@Table[expandedmutatephys]{Mutación}",
+        "10-10": "@UUID[Compendium.wfrp4e-core.items.vY0CHKsJRV3gYBj3]{Hechicero (Cualquiera)}"
+      }
+    },
+    "Optional Encounters (Major Sewer)": {
+      "name": "Encuentros aleatorios (Alcantarilla principal)",
+      "results": {
+        "1-5": "@UUID[JournalEntry.qxnXlkXKtBuIHNfu.JournalEntryPage.HT7DjzPOPFuzWrpw#ameba]{Ameba}",
+        "6-15": "@UUID[JournalEntry.qxnXlkXKtBuIHNfu.JournalEntryPage.HT7DjzPOPFuzWrpw#murcielagos]{Murciélagos}",
+        "16-25": "@UUID[JournalEntry.qxnXlkXKtBuIHNfu.JournalEntryPage.HT7DjzPOPFuzWrpw#moho-mortal]{Moho mortal}",
+        "26-35": "@UUID[JournalEntry.qxnXlkXKtBuIHNfu.JournalEntryPage.HT7DjzPOPFuzWrpw#ratas]{Ratas}",
+        "36-40": "@UUID[JournalEntry.qxnXlkXKtBuIHNfu.JournalEntryPage.HT7DjzPOPFuzWrpw#ladron]{Ladrón}",
+        "41-50": "@UUID[JournalEntry.qxnXlkXKtBuIHNfu.JournalEntryPage.HT7DjzPOPFuzWrpw#bolsa-de-metano]{Bolsa de metano}",
+        "51-80": "@UUID[JournalEntry.qxnXlkXKtBuIHNfu.JournalEntryPage.HT7DjzPOPFuzWrpw#pasarela-peligrosa]{Pasarela peligrosa}",
+        "81-100": "@UUID[JournalEntry.qxnXlkXKtBuIHNfu.JournalEntryPage.HT7DjzPOPFuzWrpw#obstaculo-imperceptible]{Obstáculo imperceptible}"
+      }
+    },
+    "Optional Encounters (Minor Sewer)": {
+      "name": "Encuentros aleatorios (Alcantarilla secundaria)",
+      "results": {
+        "1-10": "@UUID[JournalEntry.qxnXlkXKtBuIHNfu.JournalEntryPage.HT7DjzPOPFuzWrpw#ameba]{Ameba}",
+        "11-15": "@UUID[JournalEntry.qxnXlkXKtBuIHNfu.JournalEntryPage.HT7DjzPOPFuzWrpw#murcielagos]{Murciélagos}",
+        "16-40": "@UUID[JournalEntry.qxnXlkXKtBuIHNfu.JournalEntryPage.HT7DjzPOPFuzWrpw#moho-mortal]{Moho mortal}",
+        "41-70": "@UUID[JournalEntry.qxnXlkXKtBuIHNfu.JournalEntryPage.HT7DjzPOPFuzWrpw#bolsa-de-metano]{Bolsa de metano}",
+        "71-90": "@UUID[JournalEntry.qxnXlkXKtBuIHNfu.JournalEntryPage.HT7DjzPOPFuzWrpw#obstaculo-imperceptible]{Obstáculo imperceptible}",
+        "91-100": "@UUID[JournalEntry.qxnXlkXKtBuIHNfu.JournalEntryPage.HT7DjzPOPFuzWrpw#Hoyo]{Hoyo}"
+      }
+    },
+    "Optional Encounters (Schaffenfest)": {
+      "name": "Encuentros opcionales (Schaffenfest)",
+      "results": {
+        "1-4": "@UUID[JournalEntry.MB5a0zBGJcZhEYUI.JournalEntryPage.KrRntV6J4kytBcjR#acusacion]{Acusación}",
+        "5-8": "@UUID[JournalEntry.MB5a0zBGJcZhEYUI.JournalEntryPage.KrRntV6J4kytBcjR#detencion]{Detención}",
+        "9-13": "@UUID[JournalEntry.MB5a0zBGJcZhEYUI.JournalEntryPage.KrRntV6J4kytBcjR#puesto-de-cerveza]{Puesto de cerveza}",
+        "14-18": "@UUID[JournalEntry.MB5a0zBGJcZhEYUI.JournalEntryPage.KrRntV6J4kytBcjR#mendigo]{Mendigo}",
+        "19-23": "@UUID[JournalEntry.MB5a0zBGJcZhEYUI.JournalEntryPage.KrRntV6J4kytBcjR#intolerancia]{Intolerancia}",
+        "24-26": "@UUID[JournalEntry.MB5a0zBGJcZhEYUI.JournalEntryPage.KrRntV6J4kytBcjR#guardaespaldas]{Guardaespaldas}",
+        "27-33": "@UUID[JournalEntry.MB5a0zBGJcZhEYUI.JournalEntryPage.KrRntV6J4kytBcjR#pelea]{Pelea}",
+        "34-36": "@UUID[JournalEntry.MB5a0zBGJcZhEYUI.JournalEntryPage.KrRntV6J4kytBcjR#trilero]{Trilero}",
+        "37-43": "@UUID[JournalEntry.MB5a0zBGJcZhEYUI.JournalEntryPage.KrRntV6J4kytBcjR#animador]{Animador}",
+        "44-46": "@UUID[JournalEntry.MB5a0zBGJcZhEYUI.JournalEntryPage.KrRntV6J4kytBcjR#ganado-a-la-fuga]{Ganado a la fuga}",
+        "47-52": "@UUID[JournalEntry.MB5a0zBGJcZhEYUI.JournalEntryPage.KrRntV6J4kytBcjR#juegos-de-la-feria]{Juegos de la feria}",
+        "53-55": "@UUID[JournalEntry.MB5a0zBGJcZhEYUI.JournalEntryPage.KrRntV6J4kytBcjR#mercenarios]{Mercenarios}",
+        "56-90": "@UUID[JournalEntry.MB5a0zBGJcZhEYUI.JournalEntryPage.KrRntV6J4kytBcjR#vendedores]{Vendedores}",
+        "91-95": "@UUID[JournalEntry.MB5a0zBGJcZhEYUI.JournalEntryPage.KrRntV6J4kytBcjR#ladron]{Ladrón}",
+        "96-100": "@UUID[JournalEntry.MB5a0zBGJcZhEYUI.JournalEntryPage.KrRntV6J4kytBcjR#patrulla-de-la-guardia]{Patrulla de la Guardia}"
+      }
+    },
+    "Beast Head - Undivided": {
+      "name": "Cabeza de bestia - Caos Absoluto"
+    },
+    "Beast Head - Khorne": {
+      "name": "Cabeza de bestia - Khorne"
+    },
+    "Beast Head - Nurgle": {
+      "name": "Cabeza de bestia - Nurgle"
+    },
+    "Beast Head - Slaanesh": {
+      "name": "Cabeza de bestia - Slaanesh"
+    },
+    "Beast Head - Tzeentch": {
+      "name": "Cabeza de bestia - Tzeentch"
+    },
+    "Weather Table - Spring": {
+      "name": "Tabla de tiempo - Primavera",
+      "results": {
+        "1-10": "@UUID[JournalEntry.1tdhntCNqK83TS94.JournalEntryPage.WHkF67bhn4ZHktqe#seco]{Seco}",
+        "11-30": "@UUID[JournalEntry.1tdhntCNqK83TS94.JournalEntryPage.WHkF67bhn4ZHktqe#bueno]{Bueno}",
+        "31-90": "@UUID[JournalEntry.1tdhntCNqK83TS94.JournalEntryPage.WHkF67bhn4ZHktqe#lluvia]{Lluvia}",
+        "91-95": "@UUID[JournalEntry.1tdhntCNqK83TS94.JournalEntryPage.WHkF67bhn4ZHktqe#aguacero]{Aguacero}",
+        "96-100": "@UUID[JournalEntry.1tdhntCNqK83TS94.JournalEntryPage.WHkF67bhn4ZHktqe#nieve]{Nieve}"
+      }
+    },
+    "Weather Table - Summer": {
+      "name": "Tabla de tiempo - Verano",
+      "results": {
+        "1-40": "@UUID[JournalEntry.1tdhntCNqK83TS94.JournalEntryPage.WHkF67bhn4ZHktqe#seco]{Seco}",
+        "41-70": "@UUID[JournalEntry.1tdhntCNqK83TS94.JournalEntryPage.WHkF67bhn4ZHktqe#bueno]{Bueno}",
+        "71-95": "@UUID[JournalEntry.1tdhntCNqK83TS94.JournalEntryPage.WHkF67bhn4ZHktqe#lluvia]{Lluvia}",
+        "96-100": "@UUID[JournalEntry.1tdhntCNqK83TS94.JournalEntryPage.WHkF67bhn4ZHktqe#aguacero]{Aguacero}"
+      }
+    },
+    "Weather Table - Autumn": {
+      "name": "Tabla de tiempo - Otoño",
+      "results": {
+        "1-30": "@UUID[JournalEntry.1tdhntCNqK83TS94.JournalEntryPage.WHkF67bhn4ZHktqe#seco]{Seco}",
+        "31-60": "@UUID[JournalEntry.1tdhntCNqK83TS94.JournalEntryPage.WHkF67bhn4ZHktqe#bueno]{Bueno}",
+        "61-90": "@UUID[JournalEntry.1tdhntCNqK83TS94.JournalEntryPage.WHkF67bhn4ZHktqe#lluvia]{Lluvia}",
+        "91-98": "@UUID[JournalEntry.1tdhntCNqK83TS94.JournalEntryPage.WHkF67bhn4ZHktqe#aguacero]{Aguacero}",
+        "99-100": "@UUID[JournalEntry.1tdhntCNqK83TS94.JournalEntryPage.WHkF67bhn4ZHktqe#nieve]{Nieve}"
+      }
+    },
+    "Weather Table - Winter": {
+      "name": "Tabla de tiempo - Invierno",
+      "results": {
+        "1-10": "@UUID[JournalEntry.1tdhntCNqK83TS94.JournalEntryPage.WHkF67bhn4ZHktqe#bueno]{Bueno}",
+        "11-60": "@UUID[JournalEntry.1tdhntCNqK83TS94.JournalEntryPage.WHkF67bhn4ZHktqe#lluvia]{Lluvia}",
+        "61-65": "@UUID[JournalEntry.1tdhntCNqK83TS94.JournalEntryPage.WHkF67bhn4ZHktqe#aguacero]{Aguacero}",
+        "66-90": "@UUID[JournalEntry.1tdhntCNqK83TS94.JournalEntryPage.WHkF67bhn4ZHktqe#nieve]{Nieve}",
+        "91-100": "@UUID[JournalEntry.1tdhntCNqK83TS94.JournalEntryPage.WHkF67bhn4ZHktqe#ventisca]{Ventisca}"
+      }
+    },
+    "Expanded Physical Mutations - Undivided": {
+      "name": "Mutaciones físicas ampliadas - Caos Absoluto"
+    },
+    "Expanded Physical Mutations - Khorne": {
+      "name": "Mutaciones físicas ampliadas - Khorne"
+    },
+    "Expanded Physical Mutations - Nurgle": {
+      "name": "Mutaciones físicas ampliadas - Nurgle"
+    },
+    "Expanded Physical Mutations - Slaanesh": {
+      "name": "Mutaciones físicas ampliadas - Slaanesh"
+    },
+    "Expanded Physical Mutations - Tzeentch": {
+      "name": "Mutaciones físicas ampliadas - Tzeentch"
+    },
+    "Expanded Mental Mutations - Undivided": {
+      "name": "Mutaciones mentales ampliadas - Caos Absoluto"
+    },
+    "Expanded Mental Mutations - Khorne": {
+      "name": "Mutaciones mentales ampliadas - Khorne"
+    },
+    "Expanded Mental Mutations - Nurgle": {
+      "name": "Mutaciones mentales ampliadas - Nurgle"
+    },
+    "Expanded Mental Mutations - Slaanesh": {
+      "name": "Mutaciones mentales ampliadas - Slaanesh"
+    },
+    "Expanded Mental Mutations - Tzeentch": {
+      "name": "Mutaciones mentales ampliadas - Tzeentch"
+    },
+    "Delirium": {
+      "name": "Delirio",
+      "results": {
+        "1-2": "<b>Intervalo lúcido:</b> tienes un período de calma maravillosa. Se elimina cualquier Estado que hayas sufrido por tu Delirio con anterioridad.",
+        "3-5": "<b>Sueño intermitente:</b> te das la vuelta, dormido pero sin descansar. Sufres 1 Estado de @Condition[Inconsciente] durante la hora siguiente y 1 Estado de @Condition[Fatigado] durante las próximas [[/r 1d10]] horas.",
+        "6-9": "<b>Confusión:</b> atormentado por visiones extrañas y distorsionadas, sufres 1 Estado de @Condition[Aturdido] durante la hora siguiente.",
+        "10-10": "<b>Alucinaciones:</b> tienes visiones extrañas y aterradoras y debes hacer un Chequeo contra Terror 3 cada 10 minutos durante la hora siguiente. También sufres 1 Estado de @Condition[Aturdido] durante las próximas [[/r 1d10]] horas."
+      }
+    },
+    "Fixations": {
+      "name": "Fijaciones",
+      "results": {
+        "2-2": "Objetos inanimados",
+        "3-3": "Pobreza",
+        "4-4": "Fuego",
+        "5-5": "Figuras/Símbolos bélicos",
+        "6-6": "Figuras/Símbolos autoritarios",
+        "7-7": "Figuras/Símbolos religiosos",
+        "8-8": "Monstruos",
+        "9-9": "Mutantes",
+        "10-10": "Halflings",
+        "11-11": "Humanos",
+        "12-12": "Enanos",
+        "13-13": "Elfos",
+        "14-14": "Animales salvajes",
+        "15-15": "Animales domésticos",
+        "16-16": "Magia",
+        "17-17": "Enfermedad",
+        "18-18": "Agua",
+        "19-19": "Abundancia",
+        "20-20": "Felicidad"
+      }
+    },
+    "Hit Location - Quadruped": {
+      "name": "Localización de impacto - Cuadrúpedos",
+      "results": {
+        "1-16": "Cabeza",
+        "17-56": "Cuerpo",
+        "57-67": "Pata delantera izquierda",
+        "68-78": "Pata delantera derecha",
+        "79-89": "Pata trasera izquierda",
+        "90-100": "Pata trasera derecha"
+      }
+    },
+    "Riding Mishaps": {
+      "name": "Percances de monta",
+      "results": {
+        "1-40": "@UUID[JournalEntry.GHueUtHKzlhvsd8L.JournalEntryPage.lLe63oYqpVSctopI#arreos-rotos]{Arreos rotos}",
+        "41-85": "@UUID[JournalEntry.GHueUtHKzlhvsd8L.JournalEntryPage.lLe63oYqpVSctopI#herradura-suelta]{Herradura suelta}",
+        "86-98": "@UUID[JournalEntry.GHueUtHKzlhvsd8L.JournalEntryPage.lLe63oYqpVSctopI#cojera]{Cojera}",
+        "99-100": "@UUID[JournalEntry.GHueUtHKzlhvsd8L.JournalEntryPage.lLe63oYqpVSctopI#pata-rota]{Pata rota}"
+      }
+    },
+    "Vehicle Mishaps": {
+      "name": "Percances de vehículos",
+      "results": {
+        "1-50": "@UUID[JournalEntry.GHueUtHKzlhvsd8L.JournalEntryPage.lLe63oYqpVSctopI#fuera-de-control]{Fuera de control}",
+        "51-79": "@UUID[JournalEntry.GHueUtHKzlhvsd8L.JournalEntryPage.lLe63oYqpVSctopI#dañado]{Dañado}",
+        "80-95": "@UUID[JournalEntry.GHueUtHKzlhvsd8L.JournalEntryPage.lLe63oYqpVSctopI#averiado]{Averiado}",
+        "96-100": "@UUID[JournalEntry.GHueUtHKzlhvsd8L.JournalEntryPage.lLe63oYqpVSctopI#choque]{Choque}"
+      }
+    },
+    "Positive Encounters": {
+      "name": "Encuentros positivos",
+      "results": {
+        "1-25": "<b>Buena compañía:</b> un encuentro casual en el camino con otros viajeros sirve para recordar a los Personajes que hay todavía personas decentes por ahí. Por supuesto, si los PJs no son personas decentes, quizá quieran aprovecharse de la situación.",
+        "26-45": "<b>¡Mira qué cosa más útil!:</b> los Personajes descubren algo relevante para su aventura: algún cotilleo, un mensaje perdido, algo que no deberían haber presenciado u otra cosa similar.",
+        "46-60": "<b>Un alojamiento maravilloso:</b> los Personajes pasan por una cómoda casa de postas y, si están dispuestos a gastar algunas monedas, pueden descansar la mente, llenar la barriga y curar el cuerpo de cualquier estado persistente.",
+        "61-75": "<b>Tiempo de inactividad:</b> el viaje es tan relajado y sin obstáculos que los Personajes ven que tienen mucho tiempo libre a su alcance. Cada PJ puede llevar a cabo una Empresa de viaje adicional",
+        "76-90": "<b>Una palabra amable:</b> un simple acto de buena voluntad por parte de los Personajes deja a un compañero de viaje contento; la buena noticia llega hasta el lugar de destino, y al menos un PNJ con el que se encuentren los PJs allí tendrá una buena opinión de ellos.",
+        "91-95": "<b>¡Un atajo!:</b> revisando los mapas o pidiendo consejo a los lugareños, los Personajes descubren un atajo que cruza la región. Pueden saltarse la siguiente etapa del viaje.",
+        "96-100": "<b>Viaje descansado:</b> el viaje es sumamente tranquilo, los Personajes descansan bien, el paisaje es muy inspirador y tal vez se encuentran con un PNJ curandero o un sacerdote servicial. Los Personajes pueden curarse de todas las heridas y recuperarse de todos los Estados de @Condition[Fatigado]."
+      }
+    },
+    "Coincidental Encounters": {
+      "name": "Encuentros fortuitos",
+      "results": {
+        "1-10": "<b>Entorno sospechoso:</b> algo no va bien durante el viaje: es curioso que el camino esté tan tranquilo, la caza es escasa, los pocos viajeros con los que os topáis os miran de reojo antes de proseguir. Algo va mal... o quizá es sólo vuestra imaginación.",
+        "11-20": "<b>Campo de batalla:</b> los Personajes llegan al lugar de una batalla reciente. ¿Ha sido una masacre de pieles verdes, un robo en la carretera, una escaramuza de bandidos o algo peor? Pocos carroñeros han escarbado en los cuerpos, de momento, y queda mucho por encontrar... Pero, ¿a qué distancia están los culpables, y cómo reaccionarán a que los Personajes husmeen en los restos?",
+        "21-30": "<b>Masas amontonadas:</b> los Personajes se cruzan con una procesión de individuos apiñados y cariacontecidos. ¿Se trata de refugiados, penitentes, leprosos o algo más insidioso? Cualquiera que sea la naturaleza del grupo principal, éste puede esconder más peligros: pestilencia, criminales, mutantes o algo peor.",
+        "31-40": "<b>¡Ellos otra vez!:</b> un rival u otra fuente de irritación incomoda a los Personajes durante el viaje. Interprétalo de forma humorística, pero haz que sea un auténtico incordio y un azote recurrente menor en la vida de ellos. Tal vez @UUID[Actor.1h2eSRt6aRo25Eu3]{Delberz Trötte} arrastra de nuevo a los PJs a otro plan para forrarse con rapidez.",
+        "41-50": "<b>Tentaciones en el camino:</b> algo fuera de lo común llama la atención de los Personajes: una casa de postas suntuosa y tentadora en medio de la nada, una fogata desatendida con un jabalí asado y delicioso, los sonidos de una compañía de circo ambulante. ¿Se desvían los PJs para investigar y darse el gusto? ¿Qué peligros ocultos rodean a estas tentaciones?",
+        "51-60": "<b>Bad Influence:</b> los Personajes se las arreglan para importunar a un viajero por el camino, ya sea un leve menosprecio, una colisión accidental, o un insulto intencionado. Sin embargo, el viajero propaga rumores dañinos y posiblemente falsos sobre el grupo en el lugar de destino.",
+        "61-70": "<b>Carretera de peaje:</b> un noble local, un comerciante o una 'empresa privada' ha puesto un peaje por el lugar que tienen que pasar los Personajes. ¿Pagan la abusiva tarifa (en proporción a su estatus social) o intentan burlar a las autoridades? Ver  @UUID[JournalEntry.t3btEsGyiZjofqZ8.JournalEntryPage.Rk1hXBHuKmJnM6fS#peajes]{Peajes} para más información.",
+        "71-80": "<b>Lo que no debería estar:</b> hay algo que no debería estar aquí: un obelisco de piedra negra en medio de un bosque verde, extrañas runas talladas en los troncos de los árboles, una luz fría y brillante más allá del brillo de la fogata. Sea lo que sea, otros lo han visto también, y los rumores abundan en el lugar de destino.",
+        "80-90": "<b>Providencia:</b> los dioses envían a los Personajes un mensaje: una revelación sobre el pasado, una lectura del presente o una advertencia sobre el futuro. Pero los dioses no hablan como los mortales, y en lugar de ello obran señales en la Naturaleza y las circunstancias. Un cuervo que lleva en el pico un escorpión que se retuerce. Un ciervo con el esternón atravesado por una rama floreciente. Se puede hacer un Chequeo de <b>Sabiduría académica (Teología)</b> para reunir más información, pero los símbolos deben ser obvios para todos los ciudadanos del Imperio.",
+        "91-100": "<b>Un amigo en apuros:</b> otro viajero, o grupo de viajeros, necesita la ayuda de los Personajes. Tal vez su carreta se haya roto o estén siendo atacados por lobos. Si los PJs deciden escoltarlos, quizá les muestren su gratitud al llegar a un lugar seguro."
+      }
+    },
+    "Harmful Encounters": {
+      "name": "Encuentros perjudiciales",
+      "results": {
+        "1-10": "<b>Un viaje agotador:</b> la carretera está cortada. Se puede haber derrumbado un puente, desbordado un río o cortado una carretera, o quizás haya algún otro obstáculo infranqueable. Un Personaje hace un Chequeo <b>Normal (+20)</b> de <b>Supervivencia</b> para buscar una buena ruta alternativa, o de lo contrario todos llegan un día más tarde, con 1 Estado de @Condition[Fatigado].",
+        "11-20": "<b>¡Ladrones!:</b> de alguna forma, a los personajes les roban. Quizá fuera alguien que viajaba con ellos, que compartió su fogata durante la noche o tan solo una breve conversación por el camino. Pierden al ladrón de vista con rapidez, pero durante la Fase de llegada lo vislumbran justo delante, con las pertenencias robadas todavía en la mano. Tal vez la bolsa se les cayó en los ágiles dedos de @UUID[Actor.Akw4KEOxJei6b0Hf]{Wolmar Rotte}, o tal vez @UUID[Actor.bemI8rGjEeeIrKvI]{Wilhelm Kind} se les llevó una montura.",
+        "21-30": "<b>Territorio poco amistoso:</b> a medida que los Personajes avanzan, se les hace evidente que la región alberga bandidos, monstruos o algo peor. Pueden arriesgarse a atravesar el territorio, lo que requiere un éxito en un Chequeo <strong>Desafiante (+0)</strong> de <strong>Movimiento silencioso (Rural)</strong> de cada Personaje o ser emboscados; o pueden buscar otro camino y sufrir 1 Estado de @Condition[Fatigado] por el arduo viaje.",
+        "31-40": "<b>Tierra emponzoñada:</b> la región por la que viajan los Personajes se ha visto contaminada por viejas industrias, una guerra o magia negra. En la superficie todo parece normal, pero los ríos portan una enfermedad, los an- imales están envenenados y las enfermedades vuelan por el aire. Cualquier Personaje que intente una Empresa de Forrajear, adquiera mercancías de esta región, o pase demasiado tiempo allí, tendrá que lidiar con venenos, enfermedades, y tal vez incluso con la Corrupción.",
+        "41-50": "<b>Hasta la naturaleza os odia:</b> los Personajes se encuentran en peligro debido a la Naturaleza. Animales letales, tormentas de relámpagos, enfermedades, insectos, lo que sea. Esto puede terminar en violencia, en que acaben sufriendo 1 Estado o en un encuentro pequeño pero duro por elegir como cobijo la cabaña de pastor equivocada. Considera las criaturas que aparecen en @UUID[Compendium.wfrp4e-core.journals.JournalEntry.3ZynTGhFpgwv6l1n.JournalEntryPage.ahM2hOJnyXcSKrdS]{Las Bestias de Reikland}.",
+        "51-70": "<b>Un tiempo horrible:</b> cuando los Personajes acampan, el cielo se oscurece, el viento se levanta y el tiempo cambia de manera inesperada por la noche. Para la próxima tirada de @Table[weather]{Tiempo} que hagas, suma +40. Si ésta es la etapa final del viaje, las adversidades climáticas azotan el lugar de destino y dejan a todos de mal humor.",
+        "71-80": "<b>Daños en pertrechos esenciales:</b> ya sea debido a un camino lleno de baches, a una mochila perdida o a una tienda rasgada, una parte vital del equipo de viaje de los Personajes se pierde o queda destruido. Puede ser un buen abrigo impermeable, una tienda de campaña o la rueda rota de un carro. Quizá sea necesario hacer reparaciones o que el Personaje tenga que enfrentarse a los elementos y arriesgarse a una Exposición a la intemperie.",
+        "81-90": "<b>Condiciones asquerosas:</b> ya se trate de un lugar de acampada o de una posada infestada, ¡los Personajes se han expuesto a la terrible @UUID[Compendium.wfrp4e-core.items.BC4QyBeYAiw8cRuM]{Plaga del empaquetador}!",
+        "91-100": "<b>Montura huida:</b> por la noche, una montura de los Personajes huye del campamento o del establo. Un PJ debe sufrir 1 Estado de @Condition[Fatigado] si quiere recuperar a la bestia rebelde y, además, debe hacer un Chequeo de Exposición a la intemperie si busca de noche con Lluvia, Aguacero, Nieve o Ventisca."
+      }
+    }
+  }
+}
