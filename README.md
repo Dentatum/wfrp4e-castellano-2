@@ -1,7 +1,7 @@
 Traducción en español para los suplementos de WFRP4, basada en la de Devir y complementaria de la traducción de Txus.
 
 ## Contenido
-La traducción ahora mismo incluye *Noches agitadas y días difíciles*, aunque hay otros suplementos en camino. Puedes consultar la [hoja de ruta](https://github.com/users/Dentatum/projects/2) para ver todo lo que hay planeado y en progreso.
+La traducción ahora mismo incluye *Noches agitadas y días difíciles* y la aventura de *El enemigo interior*, aunque hay otros suplementos en camino. Puedes consultar la [hoja de ruta](https://github.com/users/Dentatum/projects/2) para ver todo lo que hay planeado y en progreso.
 
 Requiere Babele y el módulo original de traducción en español, https://github.com/Txus5012/WFRP4e-Castellano
 
